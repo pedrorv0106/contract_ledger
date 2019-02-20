@@ -1,0 +1,68 @@
+<% layout('dashboard/layout') -%>
+
+<div class="tab-content" id="myTabContent">
+
+    <div class="breadcrumbs_1">
+        <div class="col-sm-12">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1 class="page_title_text">CREDIT SCORE</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content mt-3 review_content_2">
+        <div class="credit_score">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="your_credit_score">
+                            <h3 class="text-center">Your credit score</h3>
+                            <div class="slider-container" id="slider_content">
+                                <svg height="300" width="500" id="semi_circle">
+                                    <!-- <path id="arc0" fill="none" stroke="transparent" stroke-width="1" /> -->
+                                    <!-- <path id="arc0" d="M100 300 A 50 50 0 0 1 400 300" stroke="black" fill="transparent"/> -->
+                                    <path id="arc1" fill="none" stroke-linecap="round" />
+                                    <path id="arc2" fill="none" stroke-linecap="round" />
+                                    <path id="arc3" fill="none" stroke-linecap="round" />
+                                    <path id="arc4" fill="none" stroke-linecap="round" />
+                                    <path id="arc5" fill="none" stroke-linecap="round" />
+                                    <circle id="circle" cx="150" cy="150" stroke="orange" fill="white" />
+                                    <text id="score" x="50%" y="95%" fill="#525252" dominant-baseline="middle" text-anchor="middle"></text>
+                                    <text id="status" x="50%" y="78%" fill="#525252" dominant-baseline="middle" text-anchor="middle"></text>
+                                </svg>
+                            </div>
+                            <form>
+                                <input id="number" type="number" name="number" min="0" max="850" value=735 step="3">
+                                <!-- <button type="button" id="submit">Submit</button> -->
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="your_credit_score">
+                            <ul>
+                                <li><p><span><img src="/images/signin_signup_dashboard/credit-card.svg" alt=""></span>Credit Card
+                                    Utilization</p> <span>24%</span></li>
+                                <li><p><span><img src="/images/signin_signup_dashboard/payment-method.svg" alt=""></span>Payment History
+                                </p> <span>99%</span></li>
+                                <li><p><span><img src="/images/signin_signup_dashboard/checklist.svg" alt=""></span>Derogatory Marks</p>
+                                    <span>1</span></li>
+                                <li><p><span><img src="/images/signin_signup_dashboard/return-to-the-past.svg" alt=""></span>Age of
+                                    credit history</p> <span>6 yrs 7 mos 	</span></li>
+                                <li><p><span><img src="/images/signin_signup_dashboard/users.svg" alt=""></span>Total Accounts</p>
+                                    <span>14</span></li>
+                                <li><p><span><img src="/images/signin_signup_dashboard/analytics.svg" alt=""></span>Hard Inquiries </p>
+                                    <span>1</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="/libs/js/jquery-3.3.1.min.js"></script>
+<script src="/javascripts/dashboard/credit_check.js"></script>

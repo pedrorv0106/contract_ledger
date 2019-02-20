@@ -1,0 +1,54 @@
+<% layout('signin_signup/layout') -%>
+
+<section class="login">
+    <div class="row full-login no-gutters">
+        <div class="col-md-7 login-part reg_part">
+
+            <div class="logo-brand">
+                <img src="/images/signin_signup_dashboard/logo.png" alt="">
+            </div>
+
+            <div class="main-login-content text-center">
+
+                <h3>Sign up</h3>
+
+                <div id="error" class='error'></div>
+
+                <form>
+                    <div class="input-group mb-3">
+                        <input id="email" type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon2">
+                        <div class="input-group-append uppend-icon">
+                            <span class="input-group-text" id="basic-addon1">
+                                <img src="/images/signin_signup_dashboard/mail.svg" alt=""></span>
+                        </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-append uppend-icon">
+                            <span class="input-group-text" id="basic-addon2"><img src="/images/signin_signup_dashboard/lock.svg" alt=""></span>
+                        </div>
+                        <input id="password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-append uppend-icon">
+                            <span class="input-group-text" id="basic-addon3">
+                                <img src="/images/signin_signup_dashboard/lock.svg" alt="">
+                            </span>
+                        </div>
+                        <input id="confirm_password" type="password" class="form-control" placeholder="Confirm Password" aria-label="Password" aria-describedby="basic-addon2">
+                    </div>
+
+                    <button type="button" class="btn btn-primary d-block btn-login" onclick="signUp()">Sign up</button>
+
+                    <div class="forgot_pass">
+                        <a href="/signin" class="forgot">Have account ?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-5 login-second-part">
+            <img src="/images/signin_signup_dashboard/right1.jpeg" alt="">
+        </div>
+    </div>
+</section>

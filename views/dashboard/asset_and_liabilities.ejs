@@ -1,0 +1,474 @@
+<% layout('dashboard/layout') -%>
+
+<!--start Asset and Liabilities content-->
+<div class="breadcrumbs_1">
+    <div class="col-sm-12">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="page_title_text">ASSETS</h1>
+                <!--<button class="back">Back</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content mt-3 review_content_2">
+
+    <div class="steps">
+        <div class='step-container'>
+            <div class="main_steps active">
+                <div class='step' data-step='1'><i class="fas fa-check"></i></div>
+                <p>Your assets</p>
+            </div>
+            <div class='step-separator' data-step='1'></div>
+            <div class="main_steps">
+                <div class='step' data-step='2'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Gift funds</p>
+            </div>
+            <div class='step-separator' data-step='2'></div>
+            <div class="main_steps">
+                <div class='step' data-step='3'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Income</p>
+            </div>
+            <div class='step-separator' data-step='3'></div>
+            <div class="main_steps">
+                <div class='step' data-step='4'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Report</p>
+            </div>
+        </div>
+
+        <div class="search_context my_context active" data-step="1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="step_context">
+                        <h2>The more assets you provide, the more home you can afford. </h2>
+                        <h3>See why we need this information?</h3>
+                    </div>
+                    <div class="video-outter-wrapper">
+                        <div class="video-wrapper">
+                            <img src="/images/signin_signup_dashboard/home.png" alt="">
+                        </div>
+                        <div class="opacity"></div>
+                        <h5>Instead of manually entering your acount information, use our automatic search
+                            and share feature to save time and get a more accurate mortgage solution. </h5>
+                        <button>find my account</button>
+                        <p>By clicking “Find my Accounts” you agree that Quicker Loans can receive your
+                            accounts
+                            and financial information from our Trusted Partners, which
+                            includes redirecting you to our partner’s page, if necessary. As always, your
+                            information and activity is covered by our Term of Use and Privacy Policy. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="your_asset">
+                        <h2>Your Assets</h2>
+                        <h6>To get the most accurate home price, please share as much of your asset
+                            information as you can.</h6>
+                        <div class="questions">
+                            <div class="first_question">
+                                <h2 class="dropdown-toggle" data-toggle="dropdown">How will you use my asset
+                                    information?</h2>
+                                <p class="dropdown-menu">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Consequuntur
+                                    harum impedit magni necessitatibus porro praesentium repellendus ut. Aut
+                                    earum id, illo in ipsam minima molestiae molestias perspiciatis qui
+                                    repellat repellendus.</p>
+                            </div>
+                            <div class="first_question">
+                                <h2 class="dropdown-toggle" data-toggle="dropdown">What kind of assets
+                                    should I provide?</h2>
+                                <p class="dropdown-menu">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Consequuntur
+                                    harum impedit magni necessitatibus porro praesentium repellendus ut. Aut
+                                    earum id, illo in ipsam minima molestiae molestias perspiciatis qui
+                                    repellat repellendus.</p>
+                            </div>
+                            <div class="first_question">
+                                <h2 class="dropdown-toggle" data-toggle="dropdown">What if I have shared
+                                    account?</h2>
+                                <p class="dropdown-menu">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Consequuntur
+                                    harum impedit magni necessitatibus porro praesentium repellendus ut. Aut
+                                    earum id, illo in ipsam minima molestiae molestias perspiciatis qui
+                                    repellat repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="account_type">
+                            <form>
+                                <div class="select_type">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">What type of account do you
+                                            have?</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Please select one:</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="text">What would you like to name this
+                                            account?(Optional)</label>
+                                        <input type="text" class="form-control" id="text" placeholder="">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="blance">What is the balance of this account?</label>
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">$</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="blance"
+                                               aria-label="Amount (to the nearest dollar)"></div>
+                                </div>
+                                <button type="button" class="next-step">SAVE AND CONTINUE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="search_context my_context " data-step="2">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section_title">
+                    <h3>Gift funds</h3>
+                    <p>Are you receiving any money as a gift for this purchase?</p>
+                </div>
+                <div class="check">
+                    <label class="check_container">YES
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check_container">No
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="how_much">
+                    <form>
+                        <div class="bg">
+                            <div class="form-group input-group">
+                                <label for="receiving">How much are you receiving?</label>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control" id="receiving"
+                                       aria-describedby="emailHelp" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="who">Who is giving you the money?</label>
+                                <select class="form-control" id="who">
+                                    <option>Please select one:</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="your_tutorial">
+                    <h3>Your total available assets:<span> $0.00</span></h3>
+                    <div class="questions">
+                        <div class="first_question">
+                            <h2 class="dropdown-toggle" data-toggle="dropdown">How will you use my asset
+                                information?</h2>
+                            <p class="dropdown-menu">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Consequuntur
+                                harum impedit magni necessitatibus porro praesentium repellendus ut. Aut
+                                earum id, illo in ipsam minima molestiae molestias perspiciatis qui
+                                repellat repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="text">
+                    <h3>What’s the max amount from your total available assets that you can afford to use
+                        for buying a home?</h3>
+                    <h4>We use this amount to show you how large of a loan you qualify for after calculating
+                        your closing costs, down payment and other upfront fees. So it’s important to think
+                        about the total amount you can affort, and not just the down
+                        payment>
+                    </h4>
+                    <div class="form-group input-group max_amount">
+                        <div class="input-group-prepend"><span class="input-group-text">$</span></div>
+                        <input type="text" class="form-control" id="how" aria-describedby="" placeholder="">
+                    </div>
+                    <button class="next-step">SAVE AND CONTINUE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search_context my_context " data-step="3">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="section_title">
+                    <h3>Income</h3>
+                </div>
+                <hr>
+                <div class="section_content">
+                    <h3>Employment history</h3>
+                    <h4>We recomend that you enter at least two years of employment history. Although it is
+                        not required, two or more years of income helps you qualify for a loan.</h4>
+                </div>
+                <hr>
+                <div class="section_content">
+                    <h3>Current Job(s)</h3>
+                    <a href="#" class="add_job"> <i class="fas fa-plus"></i> Add Job </a>
+                    <div class="current_job_context">
+                        <div class="row">
+                            <form>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="employers_name">Employer’s name</label>
+                                        <input type="text" class="form-control" id="employers_name"
+                                               placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="job_title">Job title</label>
+                                        <input type="text" class="form-control" id="job_title"
+                                               placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="employers_phone_number">
+                                        <div class="form-group">
+                                            <label for="phone_number">Employer’s phone number</label>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="email" class="form-control"
+                                                           id="phone_number">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="email" class="form-control"
+                                                           id="phone_number1">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="email" class="form-control"
+                                                           id="phone_number2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="job_type">Job type</label>
+                                        <select class="form-control" id="job_type">
+                                            <option>Please select one:</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <label for="yearly_base">What’s your yearly base income for this
+                                            job?</label>
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon3">$</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Username"
+                                               aria-describedby="basic-addon1" id="yearly_base">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="receive_type">
+                                        <h3>Do you receive other types of income for this job? Select all
+                                            that aply optional:</h3>
+                                        <label class="check_container">Bonus
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="check_container">Commission
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="check_container">Overtime
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="sub_btn">
+                                        <button class="save">Save</button>
+                                        <button class="cancel">Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="section_content">
+                    <h3>Previous Job(s)</h3>
+                    <a href="#"> <i class="fas fa-plus"></i> Add Job </a>
+                </div>
+                <hr>
+                <div class="section_content">
+                    <h3>Self-Employment, Retirment, and Other Income</h3>
+                    <a href="#"> <i class="fas fa-plus"></i> ADD INCOME </a>
+                    <div class="questions">
+                        <div class="first_question">
+                            <h2 class="dropdown-toggle" data-toggle="dropdown">How will you use my asset
+                                information?</h2>
+                            <p class="dropdown-menu">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Consequuntur
+                                harum impedit magni necessitatibus porro praesentium repellendus ut. Aut
+                                earum id, illo in ipsam minima molestiae molestias perspiciatis qui
+                                repellat repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <button class="next-step">SAVE AND CONTINUE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="search_context my_context " data-step="4">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="section_title account_overview">
+                    <h3>Account Overview</h3>
+                    <button class="download_report">
+                        <img src="/images/signin_signup_dashboard/download1.png" alt="">
+                        DOWNLOAD REPORT
+                    </button>
+                </div>
+                <div class="section_content main_overview">
+                    <div class="institution">
+                        <h3><span>INSTITUTION:</span>TARTAN BANK</h3>
+                    </div>
+                    <div class="institution">
+                        <h3><span>ACCOUNT MASK:</span>00000</h3>
+                    </div>
+                    <div class="institution">
+                        <h3><span>ACCOUNT NAME:</span>PLAID GOLD STANDARD 0% INTEREST CHEKING</h3>
+                    </div>
+                </div>
+                <div class="section_content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="report_info">
+                                <h3>Report information</h3>
+                                <h4>Provided by the requester</h4>
+
+                                <ul>
+                                    <li><p>Requester report ID</p> <span>123456</span></li>
+                                    <li><p>Requested on</p> <span>April 12, 2018</span></li>
+                                    <li><p>Data as of</p> <span>April 12, 2018</span></li>
+                                    <li><p>Days requested</p> <span>730</span></li>
+                                    <li><p>Days requested</p> <span>730</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="account_holder_information">
+                                <h3>Account holder information</h3>
+                                <h4>Sourced from the institution</h4>
+
+                                <ul>
+                                    <li>
+                                        <p>Names</p>
+                                        <span>Alberta Bobbeth Charleson</span>
+                                    </li>
+                                    <li>
+                                        <p>Addresses</p>
+                                        <p><span>2992 Cameron Road</span>
+                                            <span>Malekoff, NY</span>
+                                            <span>14236</span>
+                                            <span>2493 Leisure Lane</span>
+                                            <span>San Matias, CA</span>
+                                            <span>93405-2255</span>
+                                        </p></li>
+                                    <li>
+                                        <p>Phone numbers</p>
+                                        <p>
+                                            <span>1111222333</span>
+                                            <span>1111222333</span>
+                                            <span>1111222333</span>
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>Emails</p>
+                                        <p>
+                                            <span>acountholder0@example.com</span>
+                                            <span>acountholder0@example.com</span>
+                                            <span>acountholder0@example.com</span>
+                                            <span>acountholder0@example.com</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="account_summery">
+                                <h3>Account summery</h3>
+                                <h4>Sourced from the institution</h4>
+
+                                <ul>
+                                    <li><p>Current Balance</p>
+                                        <p><span>$</span>$110.00</p></li>
+                                    <li><p>Available balance</p>
+                                        <p><span>$</span>$110.00</p></li>
+                                    <li><p>Type</p>
+                                        <p><span>$</span>Depository</p></li>
+                                </ul>
+                            </div>
+                            <div class="account_summery summery_table">
+                                <h3>Account history</h3>
+                                <h4>Posted</h4>
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Description</th>
+                                        <th>Inflow</th>
+                                        <th>Outflow</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>May 2, 2016</td>
+                                        <td>SparkFun*</td>
+                                        <td>-----</td>
+                                        <td>$89.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>May 3, 2016</td>
+                                        <td>StarBucks</td>
+                                        <td>-----</td>
+                                        <td>$4.33</td>
+                                    </tr>
+                                    <tr>
+                                        <td>May 2, 2016</td>
+                                        <td>McDonalds #3322</td>
+                                        <td>-----</td>
+                                        <td>$12.00</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--end Asset and Liabilities content-->

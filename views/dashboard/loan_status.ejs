@@ -1,0 +1,508 @@
+<% layout('dashboard/layout') -%>
+
+<!--start Loan Status content-->
+<div class="breadcrumbs">
+    <div class="col-sm-12">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="page_title_text">FIND APPROPRIATE PROPERTY</h1>
+                <button id="back"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content mt-3 review_content">
+    <div class="steps">
+        <div class='step-container'>
+            <div class="main_steps active">
+                <div class='step' data-step='1'><i class="fas fa-check"></i></div>
+                <p>Select Property</p>
+            </div>
+            <div class='step-separator' data-step='1'></div>
+            <div class="main_steps">
+                <div class='step' data-step='2'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Initiate Contract</p>
+            </div>
+            <div class='step-separator' data-step='2'></div>
+            <div class="main_steps">
+                <div class='step' data-step='3'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Invite Buyer</p>
+            </div>
+            <div class='step-separator' data-step='3'></div>
+            <div class="main_steps">
+                <div class='step' data-step='4'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Preview Contract</p>
+            </div>
+            <div class='step-separator' data-step='4'></div>
+            <div class="main_steps">
+                <div class='step' data-step='5'>
+                    <i class="fas fa-check"></i>
+                </div>
+                <p>Finish</p>
+            </div>
+        </div>
+        <div class="search_context my_context active" data-step="1">
+            <div class="search_group">
+                <div class="dropdown">
+                    <input type="text" class="form-control js-link" aria-label="Recipient's username"
+                           aria-describedby="basic-addon2">
+                    <span class="down_icon"><i class="fas fa-chevron-down"></i></span>
+                    <ul class="js-dropdown-list">
+                        <li>Oxford</li>
+                        <li>Oxford, MS</li>
+                        <li>Oxford Middle School, Oxford, MS</li>
+                        <li>Oxford Middle School, Oxford, MS</li>
+                    </ul>
+                </div>
+                <div class="input-group-append">
+                    <span class="input-group-text" id="search">Search</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="main_search_product oxford">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_ms">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_ms">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_ms">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_md">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_md">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main_search_product oxford_md">
+                        <div class="search_product_image">
+                            <img src="/images/signin_signup_dashboard/1.png" alt="">
+                            <div class="sale">
+                                <h5>House for sale</h5>
+                                <h4>$230,00</h4>
+                            </div>
+                        </div>
+                        <div class="product_description">
+                            <h6>3 bed 2 bath 2,140 sqft 325 Lakes Dr N, Oxford, MS 38655</h6>
+                            <button class="next-step select_property">Select Property</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <nav aria-label="..." class="pagination_nav">
+                        <ul class="pagination pagination-lg">
+                            <li class="page-item">
+                                <a class="page-link" href="#" tabindex="-1">1</a>
+                            </li>
+                            <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="initiate_contract my_context" data-step="2">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="upload_contract">
+                        <div class="zone">
+                            <div class="dropZ">
+                                <img src="/images/signin_signup_dashboard/cloud-computing.svg" alt="">
+                                <div class="selectFile">
+                                    <label for="file">Upload a Contract</label>
+                                    <input type="file" name="files[]" id="file">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="upload_contract">
+                        <div class="zone">
+                            <div class="dropZ">
+                                <img src="/images/signin_signup_dashboard/2.png" alt="">
+                                <div class="selectFile">
+                                    <h3 class="next-step init">Initiate a contract to buyer</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invite_buyer my_context" data-step="3">
+            <div class="invite_buyer_form">
+                <div class="mail_forward">
+                    <div class="form_header">
+                        <h3>Invite Buyer</h3>
+                    </div>
+                    <div class="form_body">
+                        <form action="">
+                            <input type="email" placeholder="Fill email address">
+                            <button type="button" class="invite next-step">INVITE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form_for_approved my_context" data-step="4">
+            <div class="form_content">
+                <div class="row">
+                    <form action="">
+
+                        <div class="col-md-12">
+                            <div class="form_title">
+                                <h3>THIS FORM HAS BEEN APPROVED BY THE FLORIDA ASSOCIATION OF REALTORS®AND
+                                    THE
+                                    FLORIDA BAR</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 form_text">
+                            <h3>
+                                PARTIES: <input type="text"> (“Seller”),and <input type="text">
+                                (“Buyer”),hereby
+                                agree that Seller shall sell and Buyer shall buy the following described
+                                Real
+                                Property
+                                and Personal Property (collectively “Property”) pursuant to the terms and
+                                conditions
+                                of
+                                this Contract for Sale and Purchase and any riders and addenda
+                                (“Contract”):I.
+                                DESCRIPTION:(a) Legal description of the Real Property located
+                                in <input type="text"> County, Florida:
+                                <input type="text">____________(b)
+                                Street address, city, zip, of the
+                                Property: <input type="text">_____(c)
+                                Personal Property includes existing range(s), refrigerator(s),
+                                dishwasher(s),
+                                ceiling
+                                fan(s), light fixture(s), and window treatment(s) unless specifically
+                                excluded
+                                below.Other items included are:
+                                <input type="text">________________Items
+                                of Personal Property (and leased items, if any) excluded are:
+                                <input type="text">____________________________________________II.
+                                PURCHASE PRICE(U.S. currency): . . . . . . . . . . . . . . . . . . . . . . .
+                                . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $
+                                <input type="text">________________PAYMENT:(a) Deposit held in escrow
+                                by <input type="text">__________(“Escrow Agent”)in the amount of (checks
+                                subject
+                                to
+                                clearance)$ <input type="text">_________Escrow Agent’s address: <input
+                                    type="text">
+                                ________________________Phone: <input type="text">_________________(b)
+                                Additional escrow deposit to be made to Escrow Agent within <input
+                                    type="text">______
+                                days after
+                                Effective
+                                Date in the amount of. . . . . . . . . . $ <input type="text">____________________(c)
+                                Financing in the
+                                amount of (“Loan Amount”) see Paragraph IV below. . . . . . . . . . . . . .
+                                . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . $ <input type="text">____________________(d)
+                                Other . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                . . . .
+                                $ <input type="text">___(e) Balance to close by cash, wire transfer or
+                                LOCALLY DRAWN
+                                cashier’s or official bank check(s), subjectto adjustments or prorations . .
+                                . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                . . . .
+                                . .
+                                . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ <input
+                                    type="text">________________III.
+                                TIME
+                                FOR ACCEPTANCE OF OFFER AND COUNTEROFFERS; EFFECTIVE DATE:(a) If this offer
+                                is not
+                                executed by and delivered to all parties OR FACT OF EXECUTION communicated
+                                in
+                                writing
+                                between the parties on orbefore <input type="text">__________, the
+                                deposit(s)
+                                will, at Buyer’s option, be returned and this offer withdrawn. Unless
+                                other-wise
+                                stated,
+                                the time for acceptance of any counteroffers shall be 2 days from the date
+                                the
+                                counteroffer is delivered.(b) The date of Contract (“Effective Date”) will
+                                be the
+                                date
+                                when the last one of the Buyer and Seller has signed or initialed this offer
+                                or
+                                thefinal
+                                counteroffer. If such date is not otherwise set forth in this Contract, then
+                                the
+                                “Effective Date” shall be the date determined above foracceptance of this
+                                offer or,
+                                if
+                                applicable, the final counteroffer.IV. FINANCING:❏(a) This is a cash
+                                transaction
+                                with no
+                                contingencies for financing;❏(b) This Contract is contingent on Buyer
+                                obtaining
+                                written
+                                loan commitment which confirms underwriting loan approval for a loan to
+                                purchasethe
+                                Property (“Loan Approval”) within <input type="text">_____ days (if blank,
+                                then 30
+                                days) after
+                                Effective
+                                Date (“Loan Approval Date”) for (CHECK ONLYONE): ❏a fixed; ❏an adjustable;
+                                or ❏a
+                                fixed
+                                or adjustable rate loan, in the Loan Amount (See Paragraph II.(c)) at an
+                                initial
+                                interest rate not toexceed <input type="text">___________%, and for a term
+                                of <input
+                                    type="text">_______ years. Buyer will
+                                make application within <input type="text"> _____ days (if blank, then 5
+                                days) after
+                                Effective Date.
+                                BUYER:Buyer shall use reasonable diligence to: obtain Loan Approval; notify
+                                Seller
+                                in
+                                writing of receipt of Loan Approval by Loan ApprovalDate; satisfy terms of
+                                the Loan
+                                Approval; and close the loan. Loan Approval which requires a condition
+                                related to
+                                the
+                                sale of other property shallnot be deemed Loan Approval for purposes of this
+                                subparagraph. Buyer shall pay all loan expenses. Buyer authorizes the
+                                mortgage
+                                broker(s)
+                                andlender(s) to disclose information regarding the conditions, status, and
+                                progress
+                                of
+                                loan application and Loan Approval to Seller, Seller’s attorney,real estate
+                                licensee(s),
+                                and Closing Agent.SELLER:If Buyer does not deliver to Seller written notice
+                                of Loan
+                                Approval by Loan Approval Date, Seller may thereafter cancel this Contract
+                                bydelivering
+                                written notice (“Seller’s Cancellation Notice”) to Buyer, but not later than
+                                seven
+                                (7)
+                                days prior to Closing. Seller’s C a n c e l l a t i o n N o t i c e s h a l
+                                lnotify
+                                Buyer that Buyer has three (3) days to deliver to Seller written notice
+                                waiving this
+                                Financing contingency, or the Contract shall be cancelled.DEPOSIT(S) (for
+                                purposes
+                                of
+                                this Financing Paragraph IV(b) only):If Buyer has used reasonable diligence
+                                but does
+                                not
+                                obtain Loan Approvalby Loan Approval Date, and thereafter either party
+                                elects to
+                                cancel
+                                this Contract, the deposit(s) shall be returned to Buyer. If Buyer obtains
+                                LoanApproval
+                                or waives this Financing contingency, and thereafter the Contract does not
+                                close,
+                                then
+                                the deposit(s) shall be paid to Seller; provided how-ever, if the failure to
+                                close
+                                is
+                                due to: (i) Seller’s failure or refusal to close or Seller otherwise fails
+                                to meet
+                                the
+                                terms of the Contract, or (ii) Buyer’s lenderfails to receive and approve an
+                                appraisal
+                                of the Property in an amount sufficient to meet the terms of the Loan
+                                Approval, then
+                                the
+                                deposit(s) shall bereturned to Buyer.❏(c) Assumption of existing mortgage
+                                (see rider
+                                for
+                                terms); or❏(d) Purchase money note and mortgage to Seller (see Standards B
+                                and K and
+                                riders; addenda; or special clauses for terms).V. T I T L E E V I D E N C E
+                                :At
+                                least
+                                ____ days (if blank, then 5 days) before Closing a title insurance
+                                commitment with
+                                legible copies of instruments listed asexceptions attached thereto (“Title
+                                Commitment”)
+                                and, after Closing, an owner’s policy of title insurance (see Standard A for
+                                terms)
+                                shall be obtained by:(CHECK ONLY ONE):❏(1) Seller, at Seller’s expense and
+                                delivered
+                                to
+                                Buyer or Buyer’s attorney; or❏(2) Buyer at Buyer’s expense.(CHECK HERE):❏If
+                                an
+                                abstract
+                                of title is to be furnished instead of title insurance, and attach rider for
+                                terms.VI.
+                                CLOSING DATE:This transaction shall be closed and the closing documents
+                                delivered on
+                                <input type="text">___________________________ (“Closing”), unlessmodified
+                                by other
+                                provisions of this
+                                Contract. In the event of extreme weather or other conditions or events
+                                constituting
+                                “force majeure”, Closing will beextended a reasonable time until: (i)
+                                restoration of
+                                utilities and other services essential to Closing, and (ii) availability of
+                                Hazard,
+                                Wind, Flood, or Homeowners’insurance. If such conditions continue more than
+                                ______
+                                days
+                                (if blank, then 14 days) beyond Closing Date, then either party may cancel
+                                this
+                                Contract.
+                            </h3>
+                        </div>
+
+                        <button type="button" class="next-step sign">SIGN</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="finish my_context" data-step="5">
+            <div class="form_content">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="finish_logo">
+                            <img src="/images/signin_signup_dashboard/finish_logo.png" alt="">
+                            <h3>YOUR CONTRACT WAS SUCCESSFULY SENT TO SELLER</h3>
+                        </div>
+                        <div class="buttons">
+                            <button class="back_dash"><i class="fas fa-chevron-left"></i> BACK TO DASHBOARD
+                            </button>
+                            <button class="start_new"><i class="fas fa-plus"></i> START NEW SEARCH</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end Loan Status content-->

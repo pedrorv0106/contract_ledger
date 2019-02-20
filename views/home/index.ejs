@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <title><%= title%></title>
+
+    <link rel="shortcut icon" type="image/png" href="/images/favicon2.ico" />
+
+    <meta name="description" content="M-Ledger - ">
+
+
+    <link href="../file.myfontastic.com/GQVv8SiatLsPw8XGXPZJXd/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+    <link rel="stylesheet" href="/stylesheets/app.min.css" />
+
+
+
+
+
+
+<body>
+    <div class="container homepage">
+        <div class="nav-top">
+            <div class="row">
+                <ul class="nav-top-right">
+                    <li>
+                        <ul class="social-links-list">
+                            <li><span>Follow us</span></li>
+                            <li class="social-link"><a target="_blank" rel="noopener" href="https://www.facebook.com"></a></li>
+                            <li class="social-link"><a target="_blank" rel="noopener" href="https://www.linkedin.com"></a></li>
+                            <li class="social-link"><a target="_blank" rel="noopener" href="https://www.instagram.com"></a></li>
+                            <li class="social-link"><a target="_blank" rel="noopener" href="https://www.twitter.com"></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mailto:hello@mail.com"><i class="icon-mail"></i>hello@mail.com</a></li>
+                    <li><a href="tel:+44 289 344 7222"><i class="icon-telephone"></i>+44 000 000 00000</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <nav>
+            <div class="row">
+
+                <a class="logo" href="/">
+
+                    <div class="logo-top"></div>
+                    <!--<div class="logo-bottom">
+                        <div class="inner-wrapper"></div>
+                    </div>-->
+                </a>
+
+                <!--<ul class="menu-left">
+                    <li><a class="highlight" href="index.html">Landlord</a></li>
+                    <li><a href="tenant.html">Tenant</a></li>
+                </ul>-->
+
+                <div class="nav-right">
+                    <div class="menu-items-wrapper">
+                        <ul class="menu">
+                            <li><a class="highlight mobile-show"></a></li>
+                            <li><a class="mobile-show" ></a></li>
+                            <li class="has-dropdown">
+                                <span class="dropdown-opener">Products</span>
+                                <ul class="dropdown-content">
+                                    <li><a href="#">Transactions</a></li>
+                                    <li><a href="#">Auth</a></li>
+                                    <li><a href="#">Identity</a></li>
+                                    <li><a href="#">Balance</a></li>
+                                    <li><a href="#">Assets</a></li>
+                                    <li><a href="#">Income</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <span class="dropdown-opener">Use Cases</span>
+                                <ul class="dropdown-content">
+                                    <li><a href="#">Personal Finance</a></li>
+                                    <li><a href="#">Lending</a></li>
+                                    <li><a href="#">Business Finance</a></li>
+                                    <li><a href="#">Consumer Payments</a></li>
+                                    <li><a href="#">Banking and brokerage</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <span class="dropdown-opener">Docs</span>
+                                <ul class="dropdown-content">
+                                    <li><a href="#">quickstart</a></li>
+                                    <li><a href="#">API documentation</a></li>
+                                    <li><a href="#">libraries</a></li>
+                                    <li><a href="#">help center</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pricing</a></li>
+                            <li class="has-dropdown">
+                                <span class="dropdown-opener">About us</span>
+                                <ul class="dropdown-content">
+                                    <li><a href="#">company</a></li>
+                                    <li><a href="#">careers</a></li>
+                                    <li><a href="#">contacts</a></li><div class="video-outter-wrapper">
+                                    <div class="video-wrapper">
+                                    </div>
+                                </div>
+                                    <li><a href="#">privacy</a></li>
+                                    <li><a href="#">security</a></li>
+                                    <li><a href="#">legal</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="highlight" href="/signin">Log in</a></li>
+                        </ul>
+                        <div class="menu-trigger">
+                            <span class="line line-1"></span>
+                            <span class="line line-2"></span>
+                            <span class="line line-3"></span>
+                        </div>
+                    </div>
+                    <a class="button small blue" href="#"><span>Start letting</span></a>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- partial:_tour_landlord.html -->
+        <div class="tour">
+    <input type="hidden" name="current_slider">
+    <div class="tour-popup">
+        <div class="tour-content">
+            <div class="tour-popup--main active">
+                <div class="tour-header">
+                    <nav>
+                        <div class="row">
+                            <a class="logo" href="/">
+                                <div class="logo-top"></div>
+                                <div class="logo-bottom">
+                                    <div class="inner-wrapper"></div>
+                                </div>
+                            </a>
+
+                            <div class="nav-right">
+                                <ul class="menu-mobile-training training-menu">
+                                    <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                    <li><a href="#" data-steps="payments">Payments</a></li>
+                                    <li><a href="#" data-steps="maintanance">Management</a></li>
+                                    <li>
+                                        <div class="menu-trigger2 active">
+                                            <span class="line line-1"></span>
+                                            <span class="line line-2"></span>
+                                            <span class="line line-3"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="menu-items-wrapper">
+                                    <ul class="menu training-menu">
+                                        <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                        <li><a href="#" data-steps="payments">Payments</a></li>
+                                        <li><a href="#" data-steps="maintanance">Management</a></li>
+                                        <li>
+                                            <div class="menu-trigger2 active">
+                                                <span class="line line-1"></span>
+                                                <span class="line line-2"></span>
+                                                <span class="line line-3"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="clearfix"></div>
+                </div>
+                <section class="steps">
+                    <div class="row">
+                        <div class="small-12 medium-6 large-6 column">
+                            <div class="text-content">
+                                <h3>Discover<br>M-Ledger</h3>
+                                <p>Simplified property management - making life a breeze for landlords
+                                </p>
+                            </div>
+                        </div>
+                        <div class="small-12 medium-6 large-6 column">
+                            <ul class="main-steps training-menu">
+                                <li>
+                                    <a href="#" data-steps="onboarding">Onboarding</a>
+                                    <img src="/images/steps-image-1.png" alt="">
+                                </li>
+                                <li>
+                                    <a href="#" data-steps="payments">Payments</a>
+                                    <img src="/images/step-img-s.png" alt="">
+                                </li>
+                                <li>
+                                    <a href="#" data-steps="maintanance">Management</a>
+                                    <img src="/images/steps-image-3.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ONBOARDING -->
+            <div class="tour-popup--all tour-popup--onboarding">
+                <div class="tour-header">
+                    <nav>
+                        <div class="row">
+                            <a class="logo" href="/">
+                                <div class="logo-top"></div>
+                                <div class="logo-bottom">
+                                    <div class="inner-wrapper"></div>
+                                </div>
+                            </a>
+
+                            <div class="nav-right">
+                                <ul class="menu-mobile-training training-menu">
+                                    <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                    <li><a href="#" data-steps="payments">Payments</a></li>
+                                    <li><a href="#" data-steps="maintanance">Management</a></li>
+                                    <li>
+                                        <div class="menu-trigger2 active">
+                                            <span class="line line-1"></span>
+                                            <span class="line line-2"></span>
+                                            <span class="line line-3"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="menu-items-wrapper">
+                                    <ul class="menu training-menu">
+                                        <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                        <li><a href="#" data-steps="payments">Payments</a></li>
+                                        <li><a href="#" data-steps="maintanance">Management</a></li>
+                                        <li>
+                                            <div class="menu-trigger2 active">
+                                                <span class="line line-1"></span>
+                                                <span class="line line-2"></span>
+                                                <span class="line line-3"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="clearfix"></div>
+                </div>
+                <section class="steps">
+                    <div class="row">
+                        <div class="arrow-left" data-minarrow="0" data-maxarrow="6"><img src="/images/arr-back.png" alt=""></div>
+                        <div class="arrow-right" data-minarrow="0" data-maxarrow="6"><img src="/images/arr-next.png" alt=""></div>
+                        <div class="small-12 medium-6 large-5 column steps-wrapper e-in active">
+                            <div class="main-faq-wrapper">
+                                <div class="faq-question delay-2 swap-image open" data-image="0">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: block;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Find The<br>Right Tenant</h2>
+                                            <p>We’ll work with you to craft the perfect ad. Thanks to our
+                                                partnerships with some of the UK’s leading rental sites, your ad
+                                                will reach the widest audience possible.</p>
+                                            <div class="logo-wrapper">
+                                                <img src="/images/logo-zoopla.png" alt="">
+                                                <img src="/images/logo-rightmove.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-3 swap-image" data-image="1">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Easily Screen<br>Tenants</h2>
+                                            <p>Our system pre-selects tenants that match your criteria, making sure
+                                                only the right people step foot in your property. Viewings can be
+                                                set up based on your schedule, but if you’d rather us do it –
+                                                that’s no problem.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-4 swap-image" data-image="2">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Thorough<br>Screenings At<br>No Extra Cost</h2>
+                                            <p>Tenants will have to meet our benchmarks, including financial checks
+                                                and Right To Rent. We’ll also check employer references and what
+                                                their previous landlords think. And it goes without saying – you’ll
+                                                get the final say.It’s free for You and your tenants!</p>
+                                            <div class="logo-wrapper">
+                                                <img src="/images/logo-experian.png" alt="">
+                                                <img src="/images/veriff2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-5 swap-image" data-image="3">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">No Messy<br>Paperwork</h2>
+                                            <p>Our system prepares AST contracts automatically, considering any
+                                                special requirements. Digital signatures make agreements secure,
+                                                easy and hassle-free.</p>
+                                            <div class="logo-wrapper">
+                                                <img src="/images/logo-eversign.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-6 swap-image" data-image="4">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Inventory<br>Management</h2>
+                                            <p>Keep track of what’s yours. Our complete service makes managing your
+                                                property – and everything that’s it in – easy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-7 swap-image" data-image="5">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Welcome<br>Your Tenants</h2>
+                                            <p>No need to beat around the bush. Communicate with tenants directly,
+                                                arrange a time and place, and hand over the keys. Or, you can
+                                                simply leave the task with us.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-8 swap-image" data-image="6">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">The modern<br>way to rent out<br> your property</h2>
+                                            <p>Enjoy simple, transparent and automated rental management. Get in
+                                                touch with M-Ledger today and rent it out - without stressing out.</p>
+                                            <div class="button-wrapper delay-1">
+                                                <a class="button" href="https://app.M-Ledger.com/login"><span>sign up now</span></a>
+                                                <a class="button white transparent" href="https://M-Ledger.agilecrm.com/calendar/M-Ledger" target="_blank"><span>Book a demo</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="mobile-steps-nav">
+                                <li data-question="0" class="active dq0">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="1" class="dq1">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="2" class="dq2">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="3" class="dq3">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="4" class="dq4">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="5" class="dq5">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="6" class="dq6">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="small-12 medium-6 large-7 column">
+                            <div class="image-wrapper e-in active">
+                                <div class="image imgnr0 active">
+                                    <img class="lazy" alt="" src="/images/onboarding1.png" style="">
+                                </div>
+                                <div class="image imgnr1">
+                                    <img class="lazy" alt="" src="/images/onboarding2.png" style="">
+                                </div>
+                                <div class="image imgnr2">
+                                    <img class="lazy" alt="" src="/images/onboarding3.png" style="">
+                                </div>
+                                <div class="image imgnr3">
+                                    <img class="lazy" alt="" src="/images/onboarding4.png" style="">
+                                </div>
+                                <div class="image imgnr4">
+                                    <img class="lazy" alt="" src="/images/onboarding5.png" style="">
+                                </div>
+                                <div class="image imgnr5">
+                                    <img class="lazy" alt="" src="/images/onboarding6.png" style="">
+                                </div>
+                                <div class="image imgnr6">
+                                    <div class="price-page switch_landlord_onboarding">
+                                        <div class="pricing-section">
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 column pricing-left">
+                                                    <div class="inner-wrapper">
+                                                        <h5 class="delay-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                                                        <div class="pricing-switch delay-2">
+                                                            <div class="toggleWrapper">
+                                                                <input class="dn" id="dn2" name="month-an" type="checkbox">
+                                                                <label for="dn2" class="toggle">
+                                                                    <span class="toggle__handler"></span>
+                                                                </label>
+                                                                <i class="text-red">Save 10%</i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="pricing-left-row delay-2 clearfix">
+                                                            <span class="city">London</span>
+                                                            <span class="price">£59<span>pcm</span></span>
+                                                            <span class="price2">£637<span>pcm</span></span>
+                                                        </div>
+                                                        <div class="pricing-left-row delay-3 clearfix">
+                                                            <span class="city">Outside London</span>
+                                                            <span class="price">£39<span>pcm</span></span>
+                                                            <span class="price2">£421<span>pcm</span></span>
+                                                        </div>
+
+                                                        <p class="delay-4 pricing-text">No upfront fees, no lock-in
+                                                            contracts
+                                                            and you decide how much we
+                                                            manage</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- MAINTANACE -->
+            <div class="tour-popup--all tour-popup--maintanance">
+                <div class="tour-header">
+                    <nav>
+                        <div class="row">
+                            <a class="logo" href="/">
+                                <div class="logo-top"></div>
+                                <div class="logo-bottom">
+                                    <div class="inner-wrapper"></div>
+                                </div>
+                            </a>
+
+                            <div class="nav-right">
+                                <ul class="menu-mobile-training training-menu">
+                                    <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                    <li><a href="#" data-steps="payments">Payments</a></li>
+                                    <li><a href="#" data-steps="maintanance">Management</a></li>
+                                    <li>
+                                        <div class="menu-trigger2 active">
+                                            <span class="line line-1"></span>
+                                            <span class="line line-2"></span>
+                                            <span class="line line-3"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="menu-items-wrapper">
+                                    <ul class="menu training-menu">
+                                        <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                        <li><a href="#" data-steps="payments">Payments</a></li>
+                                        <li><a href="#" data-steps="maintanance">Management</a></li>
+                                        <li>
+                                            <div class="menu-trigger2 active">
+                                                <span class="line line-1"></span>
+                                                <span class="line line-2"></span>
+                                                <span class="line line-3"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="clearfix"></div>
+                </div>
+                <section class="steps">
+                    <div class="row">
+                        <div class="arrow-left" data-minarrow="7" data-maxarrow="12"><img src="/images/arr-back.png" alt=""></div>
+                        <div class="arrow-right" data-minarrow="7" data-maxarrow="12"><img src="/images/arr-next.png" alt=""></div>
+                        <div class="small-12 medium-7 large-5 column steps-wrapper e-in active">
+                            <div class="main-faq-wrapper">
+                                <div class="faq-question delay-2 swap-image open" data-image="7">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: block;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Issues &<br>Repairs</h2>
+                                            <p>Our ARLA qualified team are on stand-by 24/7. We’ll ring
+                                                the handyman and deal with any issues that pop up - and we’ll
+                                                always keep
+                                                you in the loop.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-3 swap-image" data-image="8">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Property<br>Inspections</h2>
+                                            <p>To make sure your property is well taken care of, we’ll run an
+                                                inspection after 3 months.
+                                                We’ll be back again every 6 months, providing you with a detailed
+                                                report each time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-4 swap-image" data-image="9">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Convenient<br>Management</h2>
+                                            <p>Let our Management partners do the heavy lifting.
+                                                We don’t add mark-ups, and we’re happy to talk it over
+                                                before you give us the green light.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-5 swap-image" data-image="10">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Transparent<br>Legal Advice</h2>
+                                            <p>Getting your head around the law can be tough. We’ll
+                                                save you the headache with completely transparent legal advice –
+                                                pro bono. </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-6 swap-image" data-image="11">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Instant Alerts</h2>
+                                            <p>Life’s busy – we get it. Our nifty little app
+                                                notifies you about any upcoming errands or activities,
+                                                keeping you ahead of the curve at all times.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-7 swap-image" data-image="12">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">The modern<br></bbr>way to rent out<br> your
+                                                property</h2>
+                                            <p>Your all-in-one property management tool. Complete transparency –
+                                                at an honest price. Get in touch with us today and rent it out -
+                                                without stressing out.</p>
+                                            <div class="button-wrapper delay-1">
+                                                <a class="button" href="https://app.M-Ledger.com/login"><span>sign up now</span></a>
+                                                <a class="
+                                                        button white transparent"
+                                                    href="https://M-Ledger.agilecrm.com/calendar/M-Ledger" target="_blank"><span>Book a demo</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <ul class="mobile-steps-nav">
+                                <li data-question="7" class="active dq7">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="8" class="dq8">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="9" class="dq9">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="10" class="dq10">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="11" class="dq11">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="12" class="dq12">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="small-12 medium-5 large-7 column">
+                            <div class="image-wrapper e-in active">
+                                <div class="image imgnr7 active">
+                                    <img class="lazy" alt="" src="/images/maintanace1.png" style="">
+                                </div>
+                                <div class="image imgnr8">
+                                    <img class="lazy" alt="" src="/images/maintanace2.png" style="">
+                                </div>
+                                <div class="image imgnr9">
+                                    <img class="lazy" alt="" src="/images/maintanace3.png" style="">
+                                </div>
+                                <div class="image imgnr10">
+                                    <img class="lazy" alt="" src="/images/maintanace4.png" style="">
+                                </div>
+                                <div class="image imgnr11">
+                                    <img class="lazy" alt="" src="/images/maintanace5.png" style="">
+                                </div>
+                                <div class="image imgnr12">
+                                    <div class="price-page">
+                                        <div class="pricing-section switch_landlord_payment">
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 column pricing-left">
+                                                    <div class="inner-wrapper">
+                                                        <h5 class="delay-1">Tenant Find &amp; Full Property
+                                                            Management</h5>
+                                                        <div class="pricing-switch delay-2">
+                                                            <div class="toggleWrapper">
+                                                                <input class="dn" id="dn3" name="month-an" type="checkbox">
+                                                                <label for="dn3" class="toggle">
+                                                                    <span class="toggle__handler"></span>
+                                                                </label>
+                                                                <i class="text-red">Save 10%</i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="pricing-left-row delay-2 clearfix">
+                                                            <span class="city">London</span>
+                                                            <span class="price">£59<span>pcm</span></span>
+                                                            <span class="price2">£637<span>pcm</span></span>
+                                                        </div>
+                                                        <div class="pricing-left-row delay-3 clearfix">
+                                                            <span class="city">Outside London</span>
+                                                            <span class="price">£39<span>pcm</span></span>
+                                                            <span class="price2">£421<span>pcm</span></span>
+                                                        </div>
+
+                                                        <p class="delay-4 pricing-text">No upfront fees, no lock-in
+                                                            contracts
+                                                            and you decide how much we
+                                                            manage</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- PAYMENTS -->
+            <div class="tour-popup--all tour-popup--payments">
+                <div class="tour-header">
+                    <nav>
+                        <div class="row">
+                            <a class="logo" href="/">
+                                <div class="logo-top"></div>
+                                <div class="logo-bottom">
+                                    <div class="inner-wrapper"></div>
+                                </div>
+                            </a>
+
+                            <div class="nav-right">
+                                <ul class="menu-mobile-training training-menu">
+                                    <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                    <li><a href="#" data-steps="payments">Payments</a></li>
+                                    <li><a href="#" data-steps="maintanance">Management</a></li>
+                                    <li>
+                                        <div class="menu-trigger2 active">
+                                            <span class="line line-1"></span>
+                                            <span class="line line-2"></span>
+                                            <span class="line line-3"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="menu-items-wrapper">
+                                    <ul class="menu training-menu">
+                                        <li><a href="#" data-steps="onboarding">Onboarding</a></li>
+                                        <li><a href="#" data-steps="payments">Payments</a></li>
+                                        <li><a href="#" data-steps="maintanance">Management</a></li>
+                                        <li>
+                                            <div class="menu-trigger2 active">
+                                                <span class="line line-1"></span>
+                                                <span class="line line-2"></span>
+                                                <span class="line line-3"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="clearfix"></div>
+                </div>
+                <section class="steps">
+                    <div class="row">
+                        <div class="arrow-left" data-minarrow="13" data-maxarrow="17"><img src="/images/arr-back.png" alt=""></div>
+                        <div class="arrow-right" data-minarrow="13" data-maxarrow="17"><img src="/images/arr-next.png" alt=""></div>
+                        <div class="small-12 medium-7 large-5 column steps-wrapper e-in active">
+                            <div class="main-faq-wrapper">
+                                <div class="faq-question delay-2 swap-image open" data-image="13">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: block;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Automated<br>Payments</h2>
+                                            <p>Our real-time tracking logs and stores all direct debit and credit
+                                                payments securely - no errors, no worries. Tenants are
+                                                automatically notified when they miss a payment, letting them know
+                                                it’s time to pay up.</p>
+                                            <div class="logo-wrapper">
+                                                <img src="/images/logo-gocardless.png" alt="">
+                                                <img src="/images/logo-stripe.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-3 swap-image" data-image="14">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Track<br> Payments</h2>
+                                            <p>Access payments of your portfolio under single dashboard. Edit
+                                                receiving account, export overview and see upcoming payments with
+                                                one single click.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-4 swap-image" data-image="15">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Take Care<br>Of Bills</h2>
+                                            <p>Never forget to pay a utility bill again! With our smart and simple
+                                                dashboard, you can track and pay upcoming bills all in one place.</p>
+                                            <a class="button white" href="#"><span>coming soon</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-5 swap-image" data-image="16">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">Expenses</h2>
+                                            <p>Things happen. You might have a leaky pipe or lock that needs
+                                                changing. All quotes, purchases and expenses are tracked and
+                                                available to download whenever you need.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-question delay-7 swap-image" data-image="17">
+                                    <div class="top">
+                                        <div class="deco-wrapper">
+                                            <div class="inner-wrapper"></div>
+                                        </div>
+                                        &nbsp;
+                                    </div>
+                                    <div class="bottom" style="display: none;">
+                                        <div class="inner-wrapper">
+                                            <h2 class="delay-1">The modern<br></bbr>way to rent out<br> your
+                                                property</h2>
+                                            <p>Stay on top of bills, expenses and payments - all in one place.Get
+                                                in touch with us today and rent it out - without stressing out.</p>
+                                            <div class="button-wrapper delay-1">
+                                                <a class="button" href="https://app.M-Ledger.com/login"><span>sign up now</span></a>
+                                                                    <a class="
+                                                    button white transparent" href="https://M-Ledger.agilecrm.com/calendar/M-Ledger" target="_blank"><span>Book a demo</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <ul class="mobile-steps-nav">
+                                <li data-question="13" class="active dq13">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="14" class="dq14">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="15" class="dq15">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="16" class="dq16">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                                <li data-question="17" class="dq17">
+                                    <div class="inner-wrapper"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="small-12 medium-5 large-7 column">
+                            <div class="image-wrapper e-in active">
+                                <div class="image imgnr13 active">
+                                    <img class="lazy" alt="" src="/images/payments1.png" style="">
+                                </div>
+                                <div class="image imgnr14">
+                                    <img class="lazy" alt="" src="/images/payments2.png" style="">
+                                </div>
+                                <div class="image imgnr15">
+                                    <img class="lazy" alt="" src="/images/payments3.png" style="">
+                                </div>
+                                <div class="image imgnr16">
+                                    <img class="lazy" alt="" src="/images/payments4.png" style="">
+                                </div>
+                                <div class="image imgnr17">
+                                    <div class="price-page">
+                                        <div class="pricing-section switch_landlord_managent">
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 column pricing-left">
+                                                    <div class="inner-wrapper">
+                                                        <h5 class="delay-1">Tenant Find &amp; Full Property
+                                                            Management</h5>
+                                                        <div class="pricing-switch delay-2">
+                                                            <div class="toggleWrapper">
+                                                                <input class="dn" id="dn4" name="month-an" type="checkbox">
+                                                                <label for="dn4" class="toggle">
+                                                                    <span class="toggle__handler"></span>
+                                                                </label>
+                                                                <i class="text-red">Save 10%</i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="pricing-left-row delay-2 clearfix">
+                                                            <span class="city">London</span>
+                                                            <span class="price">£59<span>pcm</span></span>
+                                                            <span class="price2">£637<span>pcm</span></span>
+                                                        </div>
+                                                        <div class="pricing-left-row delay-3 clearfix">
+                                                            <span class="city">Outside London</span>
+                                                            <span class="price">£39<span>pcm</span></span>
+                                                            <span class="price2">£421<span>pcm</span></span>
+                                                        </div>
+
+                                                        <p class="delay-4 pricing-text">No upfront fees, no lock-in
+                                                            contracts
+                                                            and you decide how much we
+                                                            manage</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- partial -->
+<!-- partial -->
+
+    <div class="hero e-in">
+        <div class="hero-inner-wrapper">
+            <div class="row">
+                <div class="hero-animation"></div>
+                <div class="small-12 medium-7 medium-offset-5 large-6 large-offset-6 column">
+                    <h1 class="delay-1">Secure Mortgage HyperLdger.</h1>
+                    <p class="delay-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="button-wrapper delay-3">
+                        <a class="button" href="#"><span>Ready to get started?</span></a>
+                        <a class="button white transparent" href="#" target="_blank"><span>Book a demo</span></a>
+                    </div>
+                    <div class="social-fallow-warpper delay-4 fall-img">
+                        <p>PROPERTIES FEATURED ON </p>
+                        <ul class="social-links-list img-on-main">
+                            <!-- <li class="social-link"><img src="img/arla.png" alt=""></li> -->
+                            <li class="social-link"><img src="/images/logo-01-padding.png" alt=""></li>
+                            <li class="social-link"><img src="/images/logo-02-padding.png" alt=""></li>
+                            <li class="social-link"><img src="/images/logo-03-padding.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="social-fallow-warpper delay-4 fall-img">
+                        <p style="margin-top: 40px !important;">TRUSTED MEMBER OF</p>
+                        <ul class="social-links-list img-on-main">
+                            <!-- <li class="social-link"><img src="img/arla.png" alt=""></li> -->
+                            <li class="social-link"><img src="/images/logo-04-padding.png" alt=""></li>
+                            <li class="social-link"><img src="/images/logo-05-padding.png" alt=""></li>
+                            <li class="social-link"><img src="/images/logo-06-padding.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="waves-container">
+
+            <div class="lines-container">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="circles-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="svg-container">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2880" height="1972"
+                    viewBox="0 0 1440 986">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                opacity: 0.7;
+                            }
+
+                            .cls-2 {
+                                fill: #fff;
+                                stroke: #f2f3f7;
+                                stroke-width: 1px;
+                            }
+
+                            .cls-2,
+                            .cls-3 {
+                                fill-rule: evenodd;
+                            }
+
+                            .cls-3 {
+                                fill: url(#linear-gradient);
+                            }
+
+                            .cls-4 {
+                                fill: #e8eaf0;
+                            }
+                        </style>
+                        <linearGradient id="linear-gradient" x1="7133.5" y1="1341" x2="7133.5" y2="809.656"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#fff" />
+                            <stop offset="1" stop-color="#f2f3f7" />
+                        </linearGradient>
+                    </defs>
+                    <g class="cls-1">
+                        <!--path class="cls-2" d="M6513,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy" data-name="Shape 9 copy" class="cls-2" d="M6822.55,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_8" data-name="Shape 9 copy 8" class="cls-2" d="M6667.55,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_2" data-name="Shape 9 copy 2" class="cls-2" d="M6978.1,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_3" data-name="Shape 9 copy 3" class="cls-2" d="M7133.35,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_4" data-name="Shape 9 copy 4" class="cls-2" d="M7287.9,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_5" data-name="Shape 9 copy 5" class="cls-2" d="M7598.45,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_7" data-name="Shape 9 copy 7" class="cls-2" d="M7443.45,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_6" data-name="Shape 9 copy 6" class="cls-2" d="M7753,356v985" transform="translate(-6413 -355.5)"/-->
+                        <path id="Rectangle_7_copy" data-name="Rectangle 7 copy" class="cls-3" d="M6412,1006.69s102.01,11.81,242.16-47.221S6870.12,837.72,7056.89,837.72s313.38,166.19,510.53,62.1S7855,810.336,7855,810.336V1341H6412V1006.69Z"
+                            transform="translate(-6413 -355.5)" />
+                        <!--circle id="Ellipse_5_copy_9" data-name="Ellipse 5 copy 9" class="cls-4" cx="1339.5" cy="470" r="6.5"/>
+        <circle id="Ellipse_5_copy_10" data-name="Ellipse 5 copy 10" class="cls-4" cx="1184.5" cy="529" r="6.5"/>
+        <circle id="Ellipse_5_copy_11" data-name="Ellipse 5 copy 11" class="cls-4" cx="1029.5" cy="579" r="6.5"/>
+        <circle id="Ellipse_5_copy_12" data-name="Ellipse 5 copy 12" class="cls-4" cx="719.5" cy="491" r="6.5"/>
+        <circle id="Ellipse_5_copy_13" data-name="Ellipse 5 copy 13" class="cls-4" cx="564.5" cy="487" r="6.5"/-->
+                    </g>
+                </svg>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- <iframe width="760" height="400" src="https://www.youtube.com/embed/yUjy2d9NXjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
+    <div id="vids" class="video-player">
+        <div class="cover">
+            <img class="close-btn" src="/images/cancel.png" alt="">
+            <img class="pause" src="/images/pauze.png" alt="">
+            <img class="mute" src="/images/volume.png" alt="">
+        </div>
+        <div class="screen active" id="tv">
+
+        </div>
+    </div>
+
+    <div id="explanation-section" class="scroll-anchor-explanation"></div>
+
+    <div class="explanation-section">
+        <div class="row content-top e-in">
+            <div class="small-12 medium-7 large-6 column">
+                <div class="text mt5em">
+                    <h3 class="delay-1">Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p class="delay-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <span class="headline-red-big delay-3">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                    <p class="delay-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                </div>
+            </div>
+            <div class="small-12 medium-5 large-6 column image-column main-video">
+                <!-- <img class="lazy" src="img/dashboard-view.jpg" style=""> -->
+                <div class="video-outter-wrapper">
+                  <div class="video-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pricing" class="scroll-anchor-pricing"></div>
+
+    <div class="pricing-section e-in">
+        <div class="row">
+            <div class="small-12 medium-6 large-6 column pricing-left">
+                <div class="inner-wrapper">
+                    <h5 class="delay-1">From getting started to millions of users, we have a plan for you</h5>
+
+                    <div class="pricing-left-row delay-2 clearfix">
+                        <span class="city">LAUNCH</span>
+                        <span class="price">$500+  <span>month</span></span>
+                    </div>
+                    <div class="pricing-left-row delay-3 clearfix">
+                        <span class="city">SCALE</span>
+                        <span class="price">Custom<span>month</span></span>
+                    </div>
+
+                    <p class="delay-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                    <img src="/images/signup-popup-img.png" alt="" />
+                </div>
+            </div>
+            <div class="small-12 medium-6 large-6 column pricing-right">
+                <h2 class="delay-1">Lorem ipsum dolor sit amet, consectetur</h2>
+                <h5 class="delay-2">What's Included</h5>
+                <ul class="clearfix">
+                    <li>auth</li>
+                    <li>transactions</li>
+                    <li>Credit Checks & References</li>
+                    <li>balance</li>
+                    <li>Contracts</li>
+                    <li>Dedicated Account Manager</li>
+                    <li>identity</li>
+                </ul>
+                <p class="delay-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="button-wrapper delay-1">
+                    <a class="button" href="#"><span>Ready to get started?</span></a>
+                    <a class="button white" href="#"><span>discover all our services</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-buttons">
+            <p>Start saving time and money now! No upfront fees until your tenants move in.</p>
+            <a class="button" href="#"><span>Start letting for free</span></a>
+            <a class="button white" href="price.html"><span>discover all our services</span></a>
+        </div>
+
+    </div>
+
+
+    <div id="features" class="scroll-anchor-all-you-need-to-know"></div>
+
+    <section class="all-you-need-to-know e-in">
+        <div class="row">
+            <h2 class="delay-1">M-Legder <br>features</h2>
+            <div class="dots-container">
+                <div class="dots-inner-container">
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-1.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Personal Finances</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                   </p>
+                                <div class="logo-section">
+                                    <p>Powered by</p>
+                                    <div>
+                                        <img width="81" class="lazy" data-src="/images/logo-zoopla.png">
+                                        <img width="135" class="lazy" data-src="/images/logo-rightmove.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-2.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Automated payments</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                  eu fugiat nulla pariatur. </p>
+                                <div class="logo-section">
+                                    <p>Powered by</p>
+                                    <div>
+                                        <img width="137" class="lazy" data-src="/images/logo-gocardless.png">
+                                        <img width="55" class="lazy" data-src="/images/logo-stripe.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-3.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Smart Contracts
+</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                  voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </p>
+                                <div class="logo-section">
+                                    <p>Powered by</p>
+                                    <div>
+                                        <img width="124" class="lazy" data-src="/images/logo-rocketchat.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-4.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Banking and brokerage </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </p>
+                                <div class="logo-section">
+                                    <p>Powered by</p>
+                                    <div>
+                                        <img width="96" class="lazy" data-src="/images/logo-experian.png">
+                                        <img width="91" class="lazy" data-src="/images/veriff.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-5.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Integrated e-signature</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <div class="logo-section">
+                                    <p>Powered by</p>
+                                    <div>
+                                        <img width="134" class="lazy" data-src="/images/logo-eversign.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bubble e-in">
+                        <div class="bubble-image-wrapper">
+                            <div class="bubble-image lazy" data-src="/images/explanation-img-6.jpg"></div>
+                        </div>
+                        <div class="bubble-content">
+                            <div class="bubble-content-inner-wrapper">
+                                <h5>Secure Mortgage HyperLdger</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="trees-container e-in">
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                </div>
+-->
+
+            </div>
+
+        </div>
+    </section>
+
+    <div id="how-it-works" class="scroll-anchor-steps"></div>
+
+    <section class="steps index-steps">
+        <div class="row">
+            <div class="small-12 medium-5 large-7 column">
+                <div class="image-wrapper e-in">
+                    <div class="image active">
+                        <img class="lazy" data-src="/images/steps-image-1.png" alt="" />
+                    </div>
+                    <div class="image">
+                        <img class="lazy" data-src="/images/steps-image-2.png" alt="" />
+                    </div>
+                    <div class="image">
+                        <img class="lazy" data-src="/images/steps-image-3.png" alt="" />
+                    </div>
+                    <div class="image">
+                        <img class="lazy" data-src="/images/steps-image-4.png" alt="" />
+                    </div>
+                    <div class="image">
+                        <img class="lazy" data-src="/images/steps-image-5.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 medium-7 large-5 column steps-wrapper e-in open-faq-mobile-link">
+                <h2 class="delay-1">As simple as 5 steps</h2>
+                <div>
+                    <div class="faq-question open delay-2 swap-image di0" data-image="0">
+                        <div class="top">
+                            <div class="deco-wrapper">
+                                <div class="inner-wrapper"></div>
+                            </div>
+                            Set Things Up
+                        </div>
+                        <div class="bottom" style="display: block;">
+                            <div class="inner-wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-question delay-3 swap-image di1" data-image="1">
+                        <div class="top">
+                            <div class="deco-wrapper">
+                                <div class="inner-wrapper"></div>
+                            </div>
+                            Screen Applicants
+                        </div>
+                        <div class="bottom">
+                            <div class="inner-wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-question delay-4 swap-image di2" data-image="2">
+                        <div class="top">
+                            <div class="deco-wrapper">
+                                <div class="inner-wrapper"></div>
+                            </div>
+                            Transfer Of Ownership
+                        </div>
+                        <div class="bottom">
+                            <div class="inner-wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-question delay-5 swap-image di3" data-image="3">
+                        <div class="top">
+                            <div class="deco-wrapper">
+                                <div class="inner-wrapper"></div>
+                            </div>
+                            Property Registration
+                        </div>
+                        <div class="bottom">
+                            <div class="inner-wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-question delay-6 swap-image di4" data-image="4">
+                        <div class="top">
+                            <div class="deco-wrapper">
+                                <div class="inner-wrapper"></div>
+                            </div>
+                            Manage Your Properties
+                        </div>
+                        <div class="bottom">
+                            <div class="inner-wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="mobile-steps-nav index-steps-on">
+                        <li data-question="0" class="active">
+                            <div class="inner-wrapper"></div>
+                        </li>
+                        <li data-question="1">
+                            <div class="inner-wrapper"></div>
+                        </li>
+                        <li data-question="2">
+                            <div class="inner-wrapper"></div>
+                        </li>
+                        <li data-question="3">
+                            <div class="inner-wrapper"></div>
+                        </li>
+                        <li data-question="4">
+                            <div class="inner-wrapper"></div>
+                        </li>
+                    </ul>
+
+                    <div class="button-wrapper delay-7">
+                        <a class="button open-tour" href="#"><span>Take a tour</span></a>
+                        <a class="button white transparent" href="#" target="_blank"><span>Book a demo</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-outter-wrapper">
+
+        <div class="foot e-in">
+
+            <div class="row">
+                <div class="small-12 medium-7 large-6 column">
+                    <div class="text-content">
+                        <h3 class="delay-1">Try M-Ledger today! </h3>
+                        <div class="button-wrapper delay-2">
+                            <a class="button" href="#"><span>Start mortgage application for free</span></a>
+                            <a class="button white transparent" href="#" target="_blank"><span>Book a demo</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 medium-5 large-6 column img-column">
+                    <div class="phone-image-wrapper delay-3">
+                        <img class="lazy" data-src="/images/iphonexnaujas.png" />
+                    </div>
+                    <div class="laptop-image-wrapper delay-4">
+                        <img class="lazy" data-src="/images/kompiuteris.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="waves-container">
+
+                <div class="lines-container">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="circles-container">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+
+                <div class="svg-container">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2880"
+                        height="1972" viewBox="0 0 1440 986">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    opacity: 0.7;
+                                }
+
+                                .cls-2 {
+                                    fill: #fff;
+                                    stroke: #f2f3f7;
+                                    stroke-width: 1px;
+                                }
+
+                                .cls-2,
+                                .cls-3 {
+                                    fill-rule: evenodd;
+                                }
+
+                                .cls-3 {
+                                    fill: url(#linear-gradient);
+                                }
+
+                                .cls-4 {
+                                    fill: #e8eaf0;
+                                }
+                            </style>
+                            <linearGradient id="linear-gradient" x1="7133.5" y1="1341" x2="7133.5" y2="809.656"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#fff" />
+                                <stop offset="1" stop-color="#f2f3f7" />
+                            </linearGradient>
+                        </defs>
+                        <g class="cls-1">
+                            <!--path class="cls-2" d="M6513,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy" data-name="Shape 9 copy" class="cls-2" d="M6822.55,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_8" data-name="Shape 9 copy 8" class="cls-2" d="M6667.55,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_2" data-name="Shape 9 copy 2" class="cls-2" d="M6978.1,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_3" data-name="Shape 9 copy 3" class="cls-2" d="M7133.35,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_4" data-name="Shape 9 copy 4" class="cls-2" d="M7287.9,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_5" data-name="Shape 9 copy 5" class="cls-2" d="M7598.45,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_7" data-name="Shape 9 copy 7" class="cls-2" d="M7443.45,356v985" transform="translate(-6413 -355.5)"/>
+        <path id="Shape_9_copy_6" data-name="Shape 9 copy 6" class="cls-2" d="M7753,356v985" transform="translate(-6413 -355.5)"/-->
+                            <path id="Rectangle_7_copy" data-name="Rectangle 7 copy" class="cls-3" d="M6412,1006.69s102.01,11.81,242.16-47.221S6870.12,837.72,7056.89,837.72s313.38,166.19,510.53,62.1S7855,810.336,7855,810.336V1341H6412V1006.69Z"
+                                transform="translate(-6413 -355.5)" />
+                            <!--circle id="Ellipse_5_copy_9" data-name="Ellipse 5 copy 9" class="cls-4" cx="1339.5" cy="470" r="6.5"/>
+        <circle id="Ellipse_5_copy_10" data-name="Ellipse 5 copy 10" class="cls-4" cx="1184.5" cy="529" r="6.5"/>
+        <circle id="Ellipse_5_copy_11" data-name="Ellipse 5 copy 11" class="cls-4" cx="1029.5" cy="579" r="6.5"/>
+        <circle id="Ellipse_5_copy_12" data-name="Ellipse 5 copy 12" class="cls-4" cx="719.5" cy="491" r="6.5"/>
+        <circle id="Ellipse_5_copy_13" data-name="Ellipse 5 copy 13" class="cls-4" cx="564.5" cy="487" r="6.5"/-->
+                        </g>
+                    </svg>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+            <!-- partial:partial/_footer.html -->
+            <footer>
+    <div class="footer-top">
+        <div class="row small-down-1 medium-up-5 large-up-5">
+            <div class="small-12 column mob-align">
+                <img src="/images/bottom_logo.png" alt="">
+            </div>
+            <div class="small-7 column">
+                <div class="footer-title">
+                    M-Ledger
+                </div>
+                <ul class="footer-top_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="small-5 column">
+                <div class="footer-title">
+                    Tour
+                </div>
+                <ul class="footer-top_menu open-trainings">
+                    <li><a href="#" data-steps="onboarding">Payments</a></li>
+                    <li><a href="#" data-steps="payments">Payments</a></li>
+                    <li><a href="#" data-steps="maintanance">Property Registration</a></li>
+                </ul>
+            </div>
+            <div class="small-7 column">
+                <div class="footer-title">
+                    Built for you
+                </div>
+                <ul class="footer-top_menu">
+                    <li><a href="#">Smart Contracts</a></li>
+                    <li><a href="#">Transfer Of Ownership</a></li>
+                    <li><a href="#">Property Registration</a></li>
+                    <li><a href="#">Property Registration</a></li>
+                    <li><a href="#">Property Registration</a></li>
+                </ul>
+            </div>
+            <div class="small-5 column">
+                <div class="footer-title">
+                    Learn
+                </div>
+                <ul class="footer-top_menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Get in Touch</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="row">
+            <span class="copyright">© 2018 All rights reserved</span>
+
+            <ul class="footer_img">
+
+            </ul>
+
+            <ul class="social-links-list">
+                <li class="social-link"><a target="_blank" rel="noopener" href="https://www.facebook.com/"></a></li>
+                <li class="social-link"><a target="_blank" rel="noopener" href="https://www.linkedin.com/"></a></li>
+                <li class="social-link"><a target="_blank" rel="noopener" href="https://www.instagram.com/"></a></li>
+                <li class="social-link"><a target="_blank" rel="noopener" href="https://www.twitter.com/"></a></li>
+            </ul>
+
+            <div class="footer-bottom-right clearfix">
+                <ul>
+                    <li><a href="mailto:hello@mail.com"><i class="icon-mail"></i>hello@mail.com</a></li>
+                    <li><a href="tel:+44 000 000 00000"><i class="icon-telephone"></i>+44 000 000 00000</a></li>
+                </ul>
+                <ul>
+                    <li class="last-li"><i class="icon-location"></i>100-060 City City,<br> City zip cod, United State</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<div class="popup-wrapper sign-up-popup">
+
+    <div class="popup step-1">
+
+        <div class="close-popup-icon close-popup"></div>
+
+        <div class="sign-up-popup-steps-pagination">
+            <ul>
+                <li class="popup-step-link" data-step="1">
+                    <div class="inner-wrapper">
+                        <div class="dot"></div>
+                        <div class="counter">1</div>
+                    </div>
+                </li>
+                <li class="popup-step-link" data-step="2">
+                    <div class="inner-wrapper">
+                        <div class="dot"></div>
+                        <div class="counter">2</div>
+                    </div>
+                </li>
+                <li class="popup-step-link" data-step="3">
+                    <div class="inner-wrapper">
+                        <div class="dot"></div>
+                        <div class="counter">3</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sign-up-popup-step step-1-content step-content">
+            <h3>Are you a landlord?</h3>
+            <p>Join our fleet of supporters today, to get early access to M-Ledger Beta version launching in Q4 2018.</p>
+            <h4>Join now and get 1 year of Free full property management</h4>
+            <img src="/images/signup-popup-img.png" alt="" />
+            <form novalidate class="clearfix">
+                <div class="input-wrapper">
+                    <input required type="name-surname" placeholder="Name Surname">
+                    <span class="error-text">This field is required</span>
+                </div>
+                <div class="input-wrapper">
+                    <input required type="phone" placeholder="Phone number">
+                    <span class="error-text">This field is required</span>
+                </div>
+                <div class="input-wrapper">
+                    <input required type="email" placeholder="Email address">
+                    <span class="error-text">This field is required</span>
+                </div>
+                <div class="input-wrapper">
+                    <button type="submit" class="button small step-change"><span>next</span></button>
+                </div>
+            </form>
+            <div class="step-1-bottom">
+                <h4>What happens next?</h4>
+                <p>You will be sent to a leaderboard table. The more you refer the higher you are ranked.</p>
+            </div>
+        </div>
+
+        <div class="sign-up-popup-step step-2-content step-content">
+            <h3>Few more questions</h3>
+            <img src="/images/signup-popup-img.png" alt="" />
+            <form novalidate>
+                <h5>Are you a landlord?</h5>
+                <div class="input-wrapper clearfix">
+                    <label class="checkbox-wrapper">
+                        <input required name="landlord" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">Yes</text>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input required name="landlord" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">No</text>
+                    </label>
+                </div>
+                <h5>Do you manage properties yourself?</h5>
+                <div class="input-wrapper clearfix">
+                    <label class="checkbox-wrapper">
+                        <input required name="selfmanage" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">Yes</text>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input required name="selfmanage" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">No</text>
+                    </label>
+                </div>
+                <h5>How many properties do you own/manage?</h5>
+                <div class="input-wrapper clearfix">
+                    <label class="checkbox-wrapper">
+                        <input required name="properties" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">1</text>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input required name="properties" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">2-5</text>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input required name="properties" type="radio" />
+                        <span class="fake-checkbox"></span>
+                        <span class="text">5+</text>
+                    </label>
+                </div>
+
+                <button class="button small step-change" type="submit"><span>Next</span></button>
+
+            </form>
+        </div>
+
+        <div class="sign-up-popup-step step-3-content step-content">
+            <h3>Before you join</h3>
+            <p>Welcome to M-Ledger customer referral campaign. You’ll find all the legal T&Cs further down the page, but
+                let’s get started with the basics: </p>
+            <p>M-Ledger letting agency is launching across The United Kingdom in September. When you refer someone to
+                M-Ledger until September to register, you’ll enter a referral program to receive free months of
+                subscription after you’ve registered your property to be managed by M-Ledger. You can use M-Ledger to find
+                tenants for free and receive full property management at a fixed monthly cost of just of just £59 in
+                London and £39 elsewhere. </p>
+            <p>Your reward will be between 1 month to 10 years of free full property management, depending on the
+                number of referrals you invite to M-Ledger. You are eligible eligible to receive one reward only.</p>
+            <h5>M-Ledger Terms of Service</h5>
+            <p>I also agree <a href="#">Terms of Service</a> and <a href="#">Privacy
+                    Policy</a>.</p>
+            <p>By clicking accept you agree to receive email reminders for the referral program.</p>
+            <div class="clearfix">
+                <button class="button small step-change" type="submit"><span>accept</span></button>
+                <a href="#" class="button small white close-popup"><span>decline</span></a>
+            </div>
+        </div>
+
+        <div class="sign-up-popup-step step-4-content step-content">
+            <h3>Check your email</h3>
+            <p>Confirming your email address helps us send you the right information.</p>
+            <div>
+                <form novalidate>
+                    <div class="input-wrapper">
+                        <input required type="email" placeholder="your@email.com" />
+                        <span class="error-text">This field is required</span>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="button small red" type="submit"><span>resend email</span></button>
+                    </div>
+                </form>
+                <span class="button white small close-popup"><span>I'll do this later</span></span>
+            </div>
+            <a class="change-email-address" href="#">Change email address</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="popup-wrapper sign-up-popup-tenant">
+
+    <div class="popup step-1">
+
+        <div class="close-popup-icon close-popup"></div>
+
+        <div class="sign-up-popup-step step-1-content step-content">
+            <h3>Thanks for joining our <br> Growing Community!</h3>
+            <p>We will be sharing a weekly newsletter with available properties and latest M-Ledger news. If you would like to unsubscribe, please follow instructions on the newsletter.</p>
+            <img src="/images/signup-popup-img.png" alt="" />
+        </div>
+    </div>
+</div>
+
+<div class="popup-wrapper check-your-rank">
+    <div class="popup">
+        <div class="close-popup-icon close-popup"></div>
+        <h3>Check your rank</h3>
+        <p>Already signed up to get free months of full free property management? Enter your email to check where you
+            currently rank.</p>
+        <form novalidate>
+            <div class="input-wrapper">
+                <input required type="email" placeholder="your@email.com" />
+                <span class="error-text">This field is required</span>
+            </div>
+            <div class="button-wrapper">
+                <button class="button small red" type="submit"><span>check</span></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="/javascripts/app-min.js"></script>
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.bez-min.js"></script>
+<script type="text/javascript" src="/javascripts/validation.js"></script>
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.js"></script>
+<script type="text/javascript" src="/javascripts/custom.js"></script>
+
+<script type="text/javascript">
+// NEW
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('tv', {
+        width: 600,
+        height: 400,
+        videoId: '9bZkp7q19f0',
+        playerVars: {
+            autoplay: 0,
+            autohide: 1,
+            modestbranding: 0,
+            rel: 0,
+            showinfo: 1,
+            controls: 1,
+            disablekb: 1,
+            enablejsapi: 1,
+            iv_load_policy: 3,
+            origin: 'http://localhost:3000',
+        },
+        events: {
+            onReady: initialize,
+            onStateChange: onPlayerStateChange
+        }
+    });
+}
+
+function initialize(){
+
+}
+
+function onPlayerStateChange(e) {
+    if (e.data == YT.PlayerState.ENDED) {
+        jQuery('.cover').addClass('backe');
+        setTimeout(function() {
+           jQuery('.video-player').removeClass('live');
+        }, 1000);
+    }
+}
+
+function vidRescale(){
+    // var w = jQuery(window).width();
+    // var h = jQuery(window).height();
+
+    // if (w/h > 16/9){
+    //     player.setSize(w, w/16*9);
+    //     jQuery('.video-player .screen').css({'left': '0px'});
+    // } else {
+    //     player.setSize(h/9*16, h);
+    //     jQuery('.video-player .screen').css({'left': -(jQuery('.video-player .screen').outerWidth()-w)/2});
+    // }
+}
+
+jQuery(window).on('load resize', function(){
+    vidRescale();
+});
+
+jQuery('.close-btn').click(function(event) {
+    jQuery('.video-player').removeClass('live');
+    jQuery('.cover').addClass('backe');
+
+    var $wrapper = jQuery('.video-wrapper');
+
+    if ($wrapper.hasClass('video-playing')) {
+        $wrapper.removeClass('video-playing');
+    } else {
+        $wrapper.addClass('video-playing');
+    }
+
+    player.pauseVideo();
+
+    event.preventDefault();
+});
+
+
+jQuery('.video-wrapper').on('click', function () {
+
+    var video = jQuery(this).find('video').get(0);
+    var $wrapper = jQuery(this);
+
+    if ($wrapper.hasClass('video-playing')) {
+        $wrapper.removeClass('video-playing');
+    } else {
+        $wrapper.addClass('video-playing');
+    }
+
+    jQuery('.video-player').addClass('live');
+
+    player.playVideo();
+    player.setPlaybackRate('hd1080');
+
+    setTimeout(function() {
+        jQuery('.cover').removeClass('backe');
+    }, 1000);
+
+    event.preventDefault();
+
+});
+
+
+jQuery('.pause').on('click', function () {
+    if(jQuery(this).hasClass('plays')) {
+        jQuery(this).removeClass('plays').attr('src', '/images/pauze.png');
+        player.playVideo();
+    } else {
+        jQuery(this).addClass('plays').attr('src', '/images/plays.png');
+        player.pauseVideo();
+    }
+});
+
+jQuery('.mute').on('click', function() {
+    if(jQuery(this).hasClass('unmute')) {
+        jQuery(this).removeClass('unmute').attr('src', '/images/volume.png');
+        player.unMute();
+    } else {
+        jQuery(this).addClass('unmute').attr('src', '/images/mute.png');
+        player.mute();
+    }
+});
+
+</script>
+</body>
+
+
+<!-- Mirrored from M-Ledger.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Dec 2018 06:05:18 GMT -->
+</html>
+
+            <!-- partial -->

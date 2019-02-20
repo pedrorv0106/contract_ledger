@@ -1,0 +1,82 @@
+<% layout('dashboard/layout') -%>
+
+<!--start Loan Status content-->
+<div class="breadcrumbs">
+    <div class="col-sm-12">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="page_title_text">TITLE</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content mt-3 review_content">
+    <div class="company_dashboard">
+        <div class="upload_files">
+            <div class="card_title">
+                <h3>Upload Mortgage Statements</h3>
+            </div>
+            <div class="file-upload">
+                <div class="image-upload-wrap">
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*"/>
+                    <div class="drag-text">
+                        <h3>Drop files here to start uploading</h3>
+                        <h4>or</h4>
+                        <button class="file-upload-btn" type="button"
+                                onclick="$('.file-upload-input').trigger( 'click' )">Select file
+                        </button>
+                    </div>
+                </div>
+                <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image"/>
+                    <div class="image-title-wrap">
+                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
+                                class="image-title">Uploaded Image</span></button>
+                    </div>
+                </div>
+                <div class="send_doc text-right">
+                    <button class="book_meeting_btn">SEND DOCUMENTS</button>
+                </div>
+            </div>
+        </div>
+        <div class="upload_files">
+            <div class="card_title">
+                <h3>Upload Closing Documents</h3>
+            </div>
+            <div class="file-upload">
+                <div class="image-upload-wrap">
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*"/>
+                    <div class="drag-text">
+                        <h3>Drop files here to start uploading</h3>
+                        <h4>or</h4>
+                        <button class="file-upload-btn" type="button"
+                                onclick="$('.file-upload-input').trigger( 'click' )">Select file
+                        </button>
+                    </div>
+                </div>
+                <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image"/>
+                    <div class="image-title-wrap">
+                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
+                                class="image-title">Uploaded Image</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="progressVisible">
+                <h5 class="zip_file_name">my_website.zip</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <h6>1.07 MB complete</h6>
+            </div>
+            <div class="send_doc text-right">
+                <button class="book_meeting_btn">SEND DOCUMENTS</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end Loan Status content-->
