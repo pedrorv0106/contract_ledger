@@ -1,0 +1,1674 @@
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: constructor
+13:38:18 - [34mdebug[39m: constructor
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processDirectory
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: fromDirectory
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:18 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:18 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: fromDirectory
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processDirectory
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: fromDirectory
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: isFileInNodeModuleDir
+13:38:28 - [34mdebug[39m: processFile
+13:38:28 - [34mdebug[39m: fromDirectory
+13:38:28 - [34mdebug[39m: buildGrammar
+13:38:28 - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"On receipt of the shipment ","text":"On receipt of the shipment [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"shipment","text":"shipment","offset":29,"lineBreaks":0,"line":1,"col":30}},{"type":"Chunk","value":" the importer ","text":" the importer [{","offset":39,"lineBreaks":0,"line":1,"col":40},{"type":"Binding","fieldName":{"type":"varid","value":"importer","text":"importer","offset":55,"lineBreaks":0,"line":1,"col":56}},{"type":"Chunk","value":" pays the grower ","text":" pays the grower [{","offset":65,"lineBreaks":0,"line":1,"col":66},{"type":"Binding","fieldName":{"type":"varid","value":"grower","text":"grower","offset":84,"lineBreaks":0,"line":1,"col":85}},{"type":"Chunk","value":" ","text":" [{","offset":92,"lineBreaks":0,"line":1,"col":93},{"type":"Binding","fieldName":{"type":"varid","value":"unitPrice","text":"unitPrice","offset":95,"lineBreaks":0,"line":1,"col":96}},{"type":"Chunk","value":" per ","text":" per [{","offset":106,"lineBreaks":0,"line":1,"col":107},{"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":113,"lineBreaks":0,"line":1,"col":114}},{"type":"Chunk","value":". The shipment must contain between ","text":". The shipment must contain between [{","offset":119,"lineBreaks":0,"line":1,"col":120},{"type":"Binding","fieldName":{"type":"varid","value":"minUnits","text":"minUnits","offset":157,"lineBreaks":0,"line":1,"col":158}},{"type":"Chunk","value":" and ","text":" and [{","offset":167,"lineBreaks":0,"line":1,"col":168},{"type":"Binding","fieldName":{"type":"varid","value":"maxUnits","text":"maxUnits","offset":174,"lineBreaks":0,"line":1,"col":175}},{"type":"Chunk","value":" ","text":" [{","offset":184,"lineBreaks":0,"line":1,"col":185},{"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":187,"lineBreaks":0,"line":1,"col":188}},{"type":"Chunk","value":" of ","text":" of [{","offset":193,"lineBreaks":0,"line":1,"col":194},{"type":"Binding","fieldName":{"type":"varid","value":"product","text":"product","offset":199,"lineBreaks":0,"line":1,"col":200}},{"type":"Chunk","value":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least ","text":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least [{","offset":208,"lineBreaks":2,"line":1,"col":209},{"type":"Binding","fieldName":{"type":"varid","value":"sensorReadingFrequency","text":"sensorReadingFrequency","offset":327,"lineBreaks":0,"line":3,"col":117}},{"type":"Chunk","value":" per ","text":" per [{","offset":351,"lineBreaks":0,"line":3,"col":141},{"type":"Binding","fieldName":{"type":"varid","value":"duration","text":"duration","offset":358,"lineBreaks":0,"line":3,"col":148}},{"type":"Chunk","value":".\n\nShipments that arrive after ","text":".\n\nShipments that arrive after [{","offset":368,"lineBreaks":2,"line":3,"col":158},{"type":"Binding","fieldName":{"type":"varid","value":"dueDate","text":"dueDate","offset":401,"lineBreaks":0,"line":5,"col":31}},{"type":"Chunk","value":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between ","text":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between [{","offset":410,"lineBreaks":2,"line":5,"col":40},{"type":"Binding","fieldName":{"type":"varid","value":"minTemperature","text":"minTemperature","offset":580,"lineBreaks":0,"line":7,"col":57}},{"type":"Chunk","value":" and ","text":" and [{","offset":596,"lineBreaks":0,"line":7,"col":73},{"type":"Binding","fieldName":{"type":"varid","value":"maxTemperature","text":"maxTemperature","offset":603,"lineBreaks":0,"line":7,"col":80}},{"type":"Chunk","value":".\n\nHumidity readings for the shipment must be between ","text":".\n\nHumidity readings for the shipment must be between [{","offset":619,"lineBreaks":2,"line":7,"col":96},{"type":"Binding","fieldName":{"type":"varid","value":"minHumidity","text":"minHumidity","offset":675,"lineBreaks":0,"line":9,"col":54}},{"type":"Chunk","value":" and ","text":" and [{","offset":688,"lineBreaks":0,"line":9,"col":67},{"type":"Binding","fieldName":{"type":"varid","value":"maxHumidity","text":"maxHumidity","offset":695,"lineBreaks":0,"line":9,"col":74}},{"type":"Chunk","value":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is ","text":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is [{","offset":708,"lineBreaks":2,"line":9,"col":87},{"type":"Binding","fieldName":{"type":"varid","value":"penaltyFactor","text":"penaltyFactor","offset":928,"lineBreaks":0,"line":11,"col":218}},{"type":"LastChunk","value":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","text":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","offset":943,"lineBreaks":4,"line":11,"col":233}]}
+13:38:28 - [34mdebug[39m: element rule0 {"type":"Chunk","value":"On receipt of the shipment ","text":"On receipt of the shipment [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+13:38:28 - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"shipment","text":"shipment","offset":29,"lineBreaks":0,"line":1,"col":30}}
+13:38:28 - [34mdebug[39m: element rule2 {"type":"Chunk","value":" the importer ","text":" the importer [{","offset":39,"lineBreaks":0,"line":1,"col":40}
+13:38:28 - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"importer","text":"importer","offset":55,"lineBreaks":0,"line":1,"col":56}}
+13:38:28 - [34mdebug[39m: element rule4 {"type":"Chunk","value":" pays the grower ","text":" pays the grower [{","offset":65,"lineBreaks":0,"line":1,"col":66}
+13:38:28 - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"grower","text":"grower","offset":84,"lineBreaks":0,"line":1,"col":85}}
+13:38:28 - [34mdebug[39m: element rule6 {"type":"Chunk","value":" ","text":" [{","offset":92,"lineBreaks":0,"line":1,"col":93}
+13:38:28 - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"unitPrice","text":"unitPrice","offset":95,"lineBreaks":0,"line":1,"col":96}}
+13:38:28 - [34mdebug[39m: element rule8 {"type":"Chunk","value":" per ","text":" per [{","offset":106,"lineBreaks":0,"line":1,"col":107}
+13:38:28 - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":113,"lineBreaks":0,"line":1,"col":114}}
+13:38:28 - [34mdebug[39m: element rule10 {"type":"Chunk","value":". The shipment must contain between ","text":". The shipment must contain between [{","offset":119,"lineBreaks":0,"line":1,"col":120}
+13:38:28 - [34mdebug[39m: element rule11 {"type":"Binding","fieldName":{"type":"varid","value":"minUnits","text":"minUnits","offset":157,"lineBreaks":0,"line":1,"col":158}}
+13:38:28 - [34mdebug[39m: element rule12 {"type":"Chunk","value":" and ","text":" and [{","offset":167,"lineBreaks":0,"line":1,"col":168}
+13:38:28 - [34mdebug[39m: element rule13 {"type":"Binding","fieldName":{"type":"varid","value":"maxUnits","text":"maxUnits","offset":174,"lineBreaks":0,"line":1,"col":175}}
+13:38:28 - [34mdebug[39m: element rule14 {"type":"Chunk","value":" ","text":" [{","offset":184,"lineBreaks":0,"line":1,"col":185}
+13:38:28 - [34mdebug[39m: element rule15 {"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":187,"lineBreaks":0,"line":1,"col":188}}
+13:38:28 - [34mdebug[39m: element rule16 {"type":"Chunk","value":" of ","text":" of [{","offset":193,"lineBreaks":0,"line":1,"col":194}
+13:38:28 - [34mdebug[39m: element rule17 {"type":"Binding","fieldName":{"type":"varid","value":"product","text":"product","offset":199,"lineBreaks":0,"line":1,"col":200}}
+13:38:28 - [34mdebug[39m: element rule18 {"type":"Chunk","value":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least ","text":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least [{","offset":208,"lineBreaks":2,"line":1,"col":209}
+13:38:28 - [34mdebug[39m: element rule19 {"type":"Binding","fieldName":{"type":"varid","value":"sensorReadingFrequency","text":"sensorReadingFrequency","offset":327,"lineBreaks":0,"line":3,"col":117}}
+13:38:28 - [34mdebug[39m: element rule20 {"type":"Chunk","value":" per ","text":" per [{","offset":351,"lineBreaks":0,"line":3,"col":141}
+13:38:28 - [34mdebug[39m: element rule21 {"type":"Binding","fieldName":{"type":"varid","value":"duration","text":"duration","offset":358,"lineBreaks":0,"line":3,"col":148}}
+13:38:28 - [34mdebug[39m: element rule22 {"type":"Chunk","value":".\n\nShipments that arrive after ","text":".\n\nShipments that arrive after [{","offset":368,"lineBreaks":2,"line":3,"col":158}
+13:38:28 - [34mdebug[39m: element rule23 {"type":"Binding","fieldName":{"type":"varid","value":"dueDate","text":"dueDate","offset":401,"lineBreaks":0,"line":5,"col":31}}
+13:38:28 - [34mdebug[39m: element rule24 {"type":"Chunk","value":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between ","text":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between [{","offset":410,"lineBreaks":2,"line":5,"col":40}
+13:38:28 - [34mdebug[39m: element rule25 {"type":"Binding","fieldName":{"type":"varid","value":"minTemperature","text":"minTemperature","offset":580,"lineBreaks":0,"line":7,"col":57}}
+13:38:28 - [34mdebug[39m: element rule26 {"type":"Chunk","value":" and ","text":" and [{","offset":596,"lineBreaks":0,"line":7,"col":73}
+13:38:28 - [34mdebug[39m: element rule27 {"type":"Binding","fieldName":{"type":"varid","value":"maxTemperature","text":"maxTemperature","offset":603,"lineBreaks":0,"line":7,"col":80}}
+13:38:28 - [34mdebug[39m: element rule28 {"type":"Chunk","value":".\n\nHumidity readings for the shipment must be between ","text":".\n\nHumidity readings for the shipment must be between [{","offset":619,"lineBreaks":2,"line":7,"col":96}
+13:38:28 - [34mdebug[39m: element rule29 {"type":"Binding","fieldName":{"type":"varid","value":"minHumidity","text":"minHumidity","offset":675,"lineBreaks":0,"line":9,"col":54}}
+13:38:28 - [34mdebug[39m: element rule30 {"type":"Chunk","value":" and ","text":" and [{","offset":688,"lineBreaks":0,"line":9,"col":67}
+13:38:28 - [34mdebug[39m: element rule31 {"type":"Binding","fieldName":{"type":"varid","value":"maxHumidity","text":"maxHumidity","offset":695,"lineBreaks":0,"line":9,"col":74}}
+13:38:28 - [34mdebug[39m: element rule32 {"type":"Chunk","value":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is ","text":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is [{","offset":708,"lineBreaks":2,"line":9,"col":87}
+13:38:28 - [34mdebug[39m: element rule33 {"type":"Binding","fieldName":{"type":"varid","value":"penaltyFactor","text":"penaltyFactor","offset":928,"lineBreaks":0,"line":11,"col":218}}
+13:38:28 - [34mdebug[39m: element rule34 {"type":"LastChunk","value":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","text":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","offset":943,"lineBreaks":4,"line":11,"col":233}
+13:38:28 - [34mdebug[39m: Generated template grammar# Dynamically Generated
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 rule11 rule12 rule13 rule14 rule15 rule16 rule17 rule18 rule19 rule20 rule21 rule22 rule23 rule24 rule25 rule26 rule27 rule28 rule29 rule30 rule31 rule32 rule33 rule34 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10,rule11,rule12,rule13,rule14,rule15,rule16,rule17,rule18,rule19,rule20,rule21,rule22,rule23,rule24,rule25,rule26,rule27,rule28,rule29,rule30,rule31,rule32,rule33,rule34 ]) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PerishableGoodsContract",
+        contractId : "faada25e-0249-4297-9f7b-26eb44664093",
+        grower : rule5,
+        importer : rule3,
+        shipment : rule1,
+        dueDate : rule23,
+        unitPrice : rule7,
+        unit : rule9,
+        minUnits : rule11,
+        maxUnits : rule13,
+        product : rule17,
+        sensorReadingFrequency : rule19,
+        duration : rule21,
+        minTemperature : rule25,
+        maxTemperature : rule27,
+        minHumidity : rule29,
+        maxHumidity : rule31,
+        penaltyFactor : rule33,
+    };
+}
+%}
+
+ROOT -> rule0 
+{% ([ rule0 ]) => {
+    return {
+        
+        
+    };
+}
+%}
+
+
+
+rule0 -> "On receipt of the shipment " 
+
+
+rule1 -> String {% id %} # shipment 
+
+
+rule2 -> " the importer " 
+
+
+rule3 -> AccordParty {% id %} # importer 
+
+
+rule4 -> " pays the grower " 
+
+
+rule5 -> AccordParty {% id %} # grower 
+
+
+rule6 -> " " 
+
+
+rule7 -> MonetaryAmount {% id %} # unitPrice 
+
+
+rule8 -> " per " 
+
+
+rule9 -> UnitOfMass {% id %} # unit 
+
+
+rule10 -> ". The shipment must contain between " 
+
+
+rule11 -> Integer {% id %} # minUnits 
+
+
+rule12 -> " and " 
+
+
+rule13 -> Integer {% id %} # maxUnits 
+
+
+rule14 -> " " 
+
+
+rule15 -> UnitOfMass {% id %} # unit 
+
+
+rule16 -> " of " 
+
+
+rule17 -> String {% id %} # product 
+
+
+rule18 -> ".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least " 
+
+
+rule19 -> Integer {% id %} # sensorReadingFrequency 
+
+
+rule20 -> " per " 
+
+
+rule21 -> TemporalUnit {% id %} # duration 
+
+
+rule22 -> ".\n\nShipments that arrive after " 
+
+
+rule23 -> DateTime {% id %} # dueDate 
+
+
+rule24 -> " are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between " 
+
+
+rule25 -> Double {% id %} # minTemperature 
+
+
+rule26 -> " and " 
+
+
+rule27 -> Double {% id %} # maxTemperature 
+
+
+rule28 -> ".\n\nHumidity readings for the shipment must be between " 
+
+
+rule29 -> Double {% id %} # minHumidity 
+
+
+rule30 -> " and " 
+
+
+rule31 -> Double {% id %} # maxHumidity 
+
+
+rule32 -> ".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is " 
+
+
+rule33 -> Double {% id %} # penaltyFactor 
+
+
+rule34 -> ".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n" 
+
+
+PerishableGoodsContract -> AccordParty  __  AccordParty  __  String  __  DateTime  __  MonetaryAmount  __  UnitOfMass  __  Integer  __  Integer  __  String  __  Integer  __  TemporalUnit  __  Double  __  Double  __  Double  __  Double  __  Double  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PerishableGoodsContract",
+        grower : data[0],
+        importer : data[2],
+        shipment : data[4],
+        dueDate : data[6],
+        unitPrice : data[8],
+        unit : data[10],
+        minUnits : data[12],
+        maxUnits : data[14],
+        product : data[16],
+        sensorReadingFrequency : data[18],
+        duration : data[20],
+        minTemperature : data[22],
+        maxTemperature : data[24],
+        minHumidity : data[26],
+        maxHumidity : data[28],
+        penaltyFactor : data[30],
+        contractId : data[32],
+        parties : data[34]
+    };
+}
+%}
+
+
+ShipmentStatus -> "CREATED" {% id %} | "IN_TRANSIT" {% id %} | "ARRIVED" {% id %} 
+
+
+SensorReading -> Double  __  Double  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.SensorReading",
+        centigrade : data[0],
+        humidity : data[2],
+        shipment : data[4],
+        transactionId : data[6],
+        timestamp : data[8]
+    };
+}
+%}
+
+
+ShipmentReceived -> Integer  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.ShipmentReceived",
+        unitCount : data[0],
+        shipment : data[2],
+        transactionId : data[4],
+        timestamp : data[6]
+    };
+}
+%}
+
+
+PriceCalculation -> MonetaryAmount  __  MonetaryAmount  __  Boolean  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PriceCalculation",
+        totalPrice : data[0],
+        penalty : data[2],
+        late : data[4],
+        shipment : data[6],
+        transactionId : data[8],
+        timestamp : data[10]
+    };
+}
+%}
+
+
+Shipment -> String  __  ShipmentStatus  __  AccordParty  __  AccordParty  __  SensorReading:*  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Shipment",
+        shipmentId : data[0],
+        status : data[2],
+        grower : data[4],
+        importer : data[6],
+        sensorReadings : data[8],
+        smartClause : data[10]
+    };
+}
+%}
+
+
+Grower -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Grower",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+Shipper -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Shipper",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+Importer -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Importer",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+SetupDemo -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.SetupDemo",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+TemporalUnit -> "seconds" {% id %} | "minutes" {% id %} | "hours" {% id %} | "days" {% id %} | "weeks" {% id %} 
+
+
+Duration -> Long  __  TemporalUnit 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.time.Duration",
+        amount : data[0],
+        unit : data[2]
+    };
+}
+%}
+
+
+PeriodUnit -> "days" {% id %} | "weeks" {% id %} | "months" {% id %} | "quarters" {% id %} | "years" {% id %} 
+
+
+Period -> Long  __  PeriodUnit 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.time.Period",
+        amount : data[0],
+        unit : data[2]
+    };
+}
+%}
+
+
+PostalAddress -> String:?  __  String:?  __  String:?  __  String:?  __  String:?  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.address.PostalAddress",
+        streetAddress : data[0],
+        postalCode : data[2],
+        postOfficeBoxNumber : data[4],
+        addressRegion : data[6],
+        addressLocality : data[8],
+        addressCountry : data[10]
+    };
+}
+%}
+
+
+Organization -> String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.organization.Organization",
+        identifier : data[0],
+        name : data[2],
+        description : data[4],
+        duns : data[6],
+        place : data[8]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+QuantitativeValue -> String  __  String:?  __  Double 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.value.QuantitativeValue",
+        unitCode : data[0],
+        unitText : data[2],
+        value : data[4]
+    };
+}
+%}
+
+
+UnitOfMass -> "GRAM" {% id %} | "KG" {% id %} | "TONNE" {% id %} 
+
+
+UnitOfLength -> "METER" {% id %} 
+
+
+UnitOfDensity -> "KG_PER_CUBIC_METER" {% id %} 
+
+
+UnitOfVolume -> "CUBIC_METER" {% id %} 
+
+
+UnitOfTemperature -> "KELVINS" {% id %} | "CELSIUS" {% id %} | "FAHRENHEIT" {% id %} 
+
+
+GeoCoordinates -> PostalAddress:?  __  String:?  __  Double:?  __  Double:?  __  Double:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.GeoCoordinates",
+        address : data[0],
+        addressCountry : data[2],
+        elevation : data[4],
+        latitude : data[6],
+        longitude : data[8]
+    };
+}
+%}
+
+
+Place -> PostalAddress:?  __  String:?  __  String:?  __  GeoCoordinates:?  __  String:?  __  String:?  __  String:?  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.Place",
+        address : data[0],
+        branchCode : data[2],
+        faxNumber : data[4],
+        geo : data[6],
+        globalLocationNumber : data[8],
+        mapUrl : data[10],
+        isicsV4 : data[12],
+        telephone : data[14]
+    };
+}
+%}
+
+
+Country -> String  __  CountryCodeISOAlpha2 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.Country",
+        name : data[0],
+        optional : data[2]
+    };
+}
+%}
+
+
+CountryCodeISOAlpha2 -> "AD" {% id %} | "AE" {% id %} | "AF" {% id %} | "AG" {% id %} | "AI" {% id %} | "AL" {% id %} | "AM" {% id %} | "AO" {% id %} | "AQ" {% id %} | "AR" {% id %} | "AS" {% id %} | "AT" {% id %} | "AU" {% id %} | "AW" {% id %} | "AX" {% id %} | "AZ" {% id %} | "BA" {% id %} | "BB" {% id %} | "BD" {% id %} | "BE" {% id %} | "BF" {% id %} | "BG" {% id %} | "BH" {% id %} | "BI" {% id %} | "BJ" {% id %} | "BL" {% id %} | "BM" {% id %} | "BN" {% id %} | "BO" {% id %} | "BQ" {% id %} | "BR" {% id %} | "BS" {% id %} | "BT" {% id %} | "BV" {% id %} | "BW" {% id %} | "BY" {% id %} | "BZ" {% id %} | "CA" {% id %} | "CC" {% id %} | "CD" {% id %} | "CF" {% id %} | "CG" {% id %} | "CH" {% id %} | "CI" {% id %} | "CK" {% id %} | "CL" {% id %} | "CM" {% id %} | "CN" {% id %} | "CO" {% id %} | "CR" {% id %} | "CU" {% id %} | "CV" {% id %} | "CW" {% id %} | "CX" {% id %} | "CY" {% id %} | "CZ" {% id %} | "DE" {% id %} | "DJ" {% id %} | "DK" {% id %} | "DM" {% id %} | "DO" {% id %} | "DZ" {% id %} | "EC" {% id %} | "EE" {% id %} | "EG" {% id %} | "EH" {% id %} | "ER" {% id %} | "ES" {% id %} | "ET" {% id %} | "FI" {% id %} | "FJ" {% id %} | "FK" {% id %} | "FM" {% id %} | "FO" {% id %} | "FR" {% id %} | "GA" {% id %} | "GB" {% id %} | "GD" {% id %} | "GE" {% id %} | "GF" {% id %} | "GG" {% id %} | "GH" {% id %} | "GI" {% id %} | "GL" {% id %} | "GM" {% id %} | "GN" {% id %} | "GP" {% id %} | "GQ" {% id %} | "GR" {% id %} | "GS" {% id %} | "GT" {% id %} | "GU" {% id %} | "GW" {% id %} | "GY" {% id %} | "HK" {% id %} | "HM" {% id %} | "HN" {% id %} | "HR" {% id %} | "HT" {% id %} | "HU" {% id %} | "ID" {% id %} | "IE" {% id %} | "IL" {% id %} | "IM" {% id %} | "IN" {% id %} | "IO" {% id %} | "IQ" {% id %} | "IR" {% id %} | "IS" {% id %} | "IT" {% id %} | "JE" {% id %} | "JM" {% id %} | "JO" {% id %} | "JP" {% id %} | "KE" {% id %} | "KG" {% id %} | "KH" {% id %} | "KI" {% id %} | "KM" {% id %} | "KN" {% id %} | "KP" {% id %} | "KR" {% id %} | "KW" {% id %} | "KY" {% id %} | "KZ" {% id %} | "LA" {% id %} | "LB" {% id %} | "LC" {% id %} | "LI" {% id %} | "LK" {% id %} | "LR" {% id %} | "LS" {% id %} | "LT" {% id %} | "LU" {% id %} | "LV" {% id %} | "LY" {% id %} | "MA" {% id %} | "MC" {% id %} | "MD" {% id %} | "ME" {% id %} | "MF" {% id %} | "MG" {% id %} | "MH" {% id %} | "MK" {% id %} | "ML" {% id %} | "MM" {% id %} | "MN" {% id %} | "MO" {% id %} | "MP" {% id %} | "MQ" {% id %} | "MR" {% id %} | "MS" {% id %} | "MT" {% id %} | "MU" {% id %} | "MV" {% id %} | "MW" {% id %} | "MX" {% id %} | "MY" {% id %} | "MZ" {% id %} | "NA" {% id %} | "NC" {% id %} | "NE" {% id %} | "NF" {% id %} | "NG" {% id %} | "NI" {% id %} | "NL" {% id %} | "NO" {% id %} | "NP" {% id %} | "NR" {% id %} | "NU" {% id %} | "NZ" {% id %} | "OM" {% id %} | "PA" {% id %} | "PE" {% id %} | "PF" {% id %} | "PG" {% id %} | "PH" {% id %} | "PK" {% id %} | "PL" {% id %} | "PM" {% id %} | "PN" {% id %} | "PR" {% id %} | "PS" {% id %} | "PT" {% id %} | "PW" {% id %} | "PY" {% id %} | "QA" {% id %} | "RE" {% id %} | "RO" {% id %} | "RS" {% id %} | "RU" {% id %} | "RW" {% id %} | "SA" {% id %} | "SB" {% id %} | "SC" {% id %} | "SD" {% id %} | "SE" {% id %} | "SG" {% id %} | "SH" {% id %} | "SI" {% id %} | "SJ" {% id %} | "SK" {% id %} | "SL" {% id %} | "SM" {% id %} | "SN" {% id %} | "SO" {% id %} | "SR" {% id %} | "SS" {% id %} | "ST" {% id %} | "SV" {% id %} | "SX" {% id %} | "SY" {% id %} | "SZ" {% id %} | "TC" {% id %} | "TD" {% id %} | "TF" {% id %} | "TG" {% id %} | "TH" {% id %} | "TJ" {% id %} | "TK" {% id %} | "TL" {% id %} | "TM" {% id %} | "TN" {% id %} | "TO" {% id %} | "TR" {% id %} | "TT" {% id %} | "TV" {% id %} | "TW" {% id %} | "TZ" {% id %} | "UA" {% id %} | "UG" {% id %} | "UM" {% id %} | "US" {% id %} | "UY" {% id %} | "UZ" {% id %} | "VA" {% id %} | "VC" {% id %} | "VE" {% id %} | "VG" {% id %} | "VI" {% id %} | "VN" {% id %} | "VU" {% id %} | "WF" {% id %} | "WS" {% id %} | "YE" {% id %} | "YT" {% id %} | "ZA" {% id %} | "ZM" {% id %} | "ZW" {% id %} 
+
+
+
+# Basic types
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+MONTH -> DOUBLE_NUMBER
+DAY -> DOUBLE_NUMBER
+YEAR -> DOUBLE_NUMBER DOUBLE_NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+DATE -> MONTH "/" DAY "/" YEAR
+{% (d) => {return '' + d[4] + '-' + d[0] + '-' + d[2]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+DateTime -> DATE  {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+# Whitespace: `_` is optional, `__` is mandatory.
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+13:38:29 - [34mdebug[39m: fromDirectory
+13:38:29 - [34mdebug[39m: fromDirectory
+13:38:29 - [34mdebug[39m: Result of parsing: {"$class":"org.accordproject.perishablegoods.PerishableGoodsContract","contractId":"faada25e-0249-4297-9f7b-26eb44664093","grower":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"PETER"},"importer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"DAN"},"shipment":"SHIP_001","dueDate":"2018-07-02","unitPrice":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":1.5,"currencyCode":"USD"},"unit":"KG","minUnits":3000,"maxUnits":3500,"product":"Grade I, Size 4, Zutano Mexican Avocados","sensorReadingFrequency":1,"duration":"hours","minTemperature":2,"maxTemperature":13,"minHumidity":70,"maxHumidity":90,"penaltyFactor":0.2}
+13:38:29 - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.perishablegoods.PerishableGoodsContract","contractId":"faada25e-0249-4297-9f7b-26eb44664093","grower":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"PETER"},"importer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"DAN"},"shipment":"SHIP_001","dueDate":"2018-07-02","unitPrice":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":1.5,"currencyCode":"USD"},"unit":"KG","minUnits":3000,"maxUnits":3500,"product":"Grade I, Size 4, Zutano Mexican Avocados","sensorReadingFrequency":1,"duration":"hours","minTemperature":2,"maxTemperature":13,"minHumidity":70,"maxHumidity":90,"penaltyFactor":0.2}
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: constructor
+14:02:57 - [34mdebug[39m: constructor
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processDirectory
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: fromDirectory
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:02:57 - [34mdebug[39m: isFileInNodeModuleDir
+14:02:57 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: fromDirectory
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processDirectory
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: fromDirectory
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:06 - [34mdebug[39m: isFileInNodeModuleDir
+14:03:06 - [34mdebug[39m: processFile
+14:03:07 - [34mdebug[39m: fromDirectory
+14:03:07 - [34mdebug[39m: buildGrammar
+14:03:07 - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"On receipt of the shipment ","text":"On receipt of the shipment [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"shipment","text":"shipment","offset":29,"lineBreaks":0,"line":1,"col":30}},{"type":"Chunk","value":" the importer ","text":" the importer [{","offset":39,"lineBreaks":0,"line":1,"col":40},{"type":"Binding","fieldName":{"type":"varid","value":"importer","text":"importer","offset":55,"lineBreaks":0,"line":1,"col":56}},{"type":"Chunk","value":" pays the grower ","text":" pays the grower [{","offset":65,"lineBreaks":0,"line":1,"col":66},{"type":"Binding","fieldName":{"type":"varid","value":"grower","text":"grower","offset":84,"lineBreaks":0,"line":1,"col":85}},{"type":"Chunk","value":" ","text":" [{","offset":92,"lineBreaks":0,"line":1,"col":93},{"type":"Binding","fieldName":{"type":"varid","value":"unitPrice","text":"unitPrice","offset":95,"lineBreaks":0,"line":1,"col":96}},{"type":"Chunk","value":" per ","text":" per [{","offset":106,"lineBreaks":0,"line":1,"col":107},{"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":113,"lineBreaks":0,"line":1,"col":114}},{"type":"Chunk","value":". The shipment must contain between ","text":". The shipment must contain between [{","offset":119,"lineBreaks":0,"line":1,"col":120},{"type":"Binding","fieldName":{"type":"varid","value":"minUnits","text":"minUnits","offset":157,"lineBreaks":0,"line":1,"col":158}},{"type":"Chunk","value":" and ","text":" and [{","offset":167,"lineBreaks":0,"line":1,"col":168},{"type":"Binding","fieldName":{"type":"varid","value":"maxUnits","text":"maxUnits","offset":174,"lineBreaks":0,"line":1,"col":175}},{"type":"Chunk","value":" ","text":" [{","offset":184,"lineBreaks":0,"line":1,"col":185},{"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":187,"lineBreaks":0,"line":1,"col":188}},{"type":"Chunk","value":" of ","text":" of [{","offset":193,"lineBreaks":0,"line":1,"col":194},{"type":"Binding","fieldName":{"type":"varid","value":"product","text":"product","offset":199,"lineBreaks":0,"line":1,"col":200}},{"type":"Chunk","value":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least ","text":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least [{","offset":208,"lineBreaks":2,"line":1,"col":209},{"type":"Binding","fieldName":{"type":"varid","value":"sensorReadingFrequency","text":"sensorReadingFrequency","offset":327,"lineBreaks":0,"line":3,"col":117}},{"type":"Chunk","value":" per ","text":" per [{","offset":351,"lineBreaks":0,"line":3,"col":141},{"type":"Binding","fieldName":{"type":"varid","value":"duration","text":"duration","offset":358,"lineBreaks":0,"line":3,"col":148}},{"type":"Chunk","value":".\n\nShipments that arrive after ","text":".\n\nShipments that arrive after [{","offset":368,"lineBreaks":2,"line":3,"col":158},{"type":"Binding","fieldName":{"type":"varid","value":"dueDate","text":"dueDate","offset":401,"lineBreaks":0,"line":5,"col":31}},{"type":"Chunk","value":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between ","text":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between [{","offset":410,"lineBreaks":2,"line":5,"col":40},{"type":"Binding","fieldName":{"type":"varid","value":"minTemperature","text":"minTemperature","offset":580,"lineBreaks":0,"line":7,"col":57}},{"type":"Chunk","value":" and ","text":" and [{","offset":596,"lineBreaks":0,"line":7,"col":73},{"type":"Binding","fieldName":{"type":"varid","value":"maxTemperature","text":"maxTemperature","offset":603,"lineBreaks":0,"line":7,"col":80}},{"type":"Chunk","value":".\n\nHumidity readings for the shipment must be between ","text":".\n\nHumidity readings for the shipment must be between [{","offset":619,"lineBreaks":2,"line":7,"col":96},{"type":"Binding","fieldName":{"type":"varid","value":"minHumidity","text":"minHumidity","offset":675,"lineBreaks":0,"line":9,"col":54}},{"type":"Chunk","value":" and ","text":" and [{","offset":688,"lineBreaks":0,"line":9,"col":67},{"type":"Binding","fieldName":{"type":"varid","value":"maxHumidity","text":"maxHumidity","offset":695,"lineBreaks":0,"line":9,"col":74}},{"type":"Chunk","value":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is ","text":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is [{","offset":708,"lineBreaks":2,"line":9,"col":87},{"type":"Binding","fieldName":{"type":"varid","value":"penaltyFactor","text":"penaltyFactor","offset":928,"lineBreaks":0,"line":11,"col":218}},{"type":"LastChunk","value":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","text":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","offset":943,"lineBreaks":4,"line":11,"col":233}]}
+14:03:07 - [34mdebug[39m: element rule0 {"type":"Chunk","value":"On receipt of the shipment ","text":"On receipt of the shipment [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+14:03:07 - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"shipment","text":"shipment","offset":29,"lineBreaks":0,"line":1,"col":30}}
+14:03:07 - [34mdebug[39m: element rule2 {"type":"Chunk","value":" the importer ","text":" the importer [{","offset":39,"lineBreaks":0,"line":1,"col":40}
+14:03:07 - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"importer","text":"importer","offset":55,"lineBreaks":0,"line":1,"col":56}}
+14:03:07 - [34mdebug[39m: element rule4 {"type":"Chunk","value":" pays the grower ","text":" pays the grower [{","offset":65,"lineBreaks":0,"line":1,"col":66}
+14:03:07 - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"grower","text":"grower","offset":84,"lineBreaks":0,"line":1,"col":85}}
+14:03:07 - [34mdebug[39m: element rule6 {"type":"Chunk","value":" ","text":" [{","offset":92,"lineBreaks":0,"line":1,"col":93}
+14:03:07 - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"unitPrice","text":"unitPrice","offset":95,"lineBreaks":0,"line":1,"col":96}}
+14:03:07 - [34mdebug[39m: element rule8 {"type":"Chunk","value":" per ","text":" per [{","offset":106,"lineBreaks":0,"line":1,"col":107}
+14:03:07 - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":113,"lineBreaks":0,"line":1,"col":114}}
+14:03:07 - [34mdebug[39m: element rule10 {"type":"Chunk","value":". The shipment must contain between ","text":". The shipment must contain between [{","offset":119,"lineBreaks":0,"line":1,"col":120}
+14:03:07 - [34mdebug[39m: element rule11 {"type":"Binding","fieldName":{"type":"varid","value":"minUnits","text":"minUnits","offset":157,"lineBreaks":0,"line":1,"col":158}}
+14:03:07 - [34mdebug[39m: element rule12 {"type":"Chunk","value":" and ","text":" and [{","offset":167,"lineBreaks":0,"line":1,"col":168}
+14:03:07 - [34mdebug[39m: element rule13 {"type":"Binding","fieldName":{"type":"varid","value":"maxUnits","text":"maxUnits","offset":174,"lineBreaks":0,"line":1,"col":175}}
+14:03:07 - [34mdebug[39m: element rule14 {"type":"Chunk","value":" ","text":" [{","offset":184,"lineBreaks":0,"line":1,"col":185}
+14:03:07 - [34mdebug[39m: element rule15 {"type":"Binding","fieldName":{"type":"varid","value":"unit","text":"unit","offset":187,"lineBreaks":0,"line":1,"col":188}}
+14:03:07 - [34mdebug[39m: element rule16 {"type":"Chunk","value":" of ","text":" of [{","offset":193,"lineBreaks":0,"line":1,"col":194}
+14:03:07 - [34mdebug[39m: element rule17 {"type":"Binding","fieldName":{"type":"varid","value":"product","text":"product","offset":199,"lineBreaks":0,"line":1,"col":200}}
+14:03:07 - [34mdebug[39m: element rule18 {"type":"Chunk","value":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least ","text":".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least [{","offset":208,"lineBreaks":2,"line":1,"col":209}
+14:03:07 - [34mdebug[39m: element rule19 {"type":"Binding","fieldName":{"type":"varid","value":"sensorReadingFrequency","text":"sensorReadingFrequency","offset":327,"lineBreaks":0,"line":3,"col":117}}
+14:03:07 - [34mdebug[39m: element rule20 {"type":"Chunk","value":" per ","text":" per [{","offset":351,"lineBreaks":0,"line":3,"col":141}
+14:03:07 - [34mdebug[39m: element rule21 {"type":"Binding","fieldName":{"type":"varid","value":"duration","text":"duration","offset":358,"lineBreaks":0,"line":3,"col":148}}
+14:03:07 - [34mdebug[39m: element rule22 {"type":"Chunk","value":".\n\nShipments that arrive after ","text":".\n\nShipments that arrive after [{","offset":368,"lineBreaks":2,"line":3,"col":158}
+14:03:07 - [34mdebug[39m: element rule23 {"type":"Binding","fieldName":{"type":"varid","value":"dueDate","text":"dueDate","offset":401,"lineBreaks":0,"line":5,"col":31}}
+14:03:07 - [34mdebug[39m: element rule24 {"type":"Chunk","value":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between ","text":" are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between [{","offset":410,"lineBreaks":2,"line":5,"col":40}
+14:03:07 - [34mdebug[39m: element rule25 {"type":"Binding","fieldName":{"type":"varid","value":"minTemperature","text":"minTemperature","offset":580,"lineBreaks":0,"line":7,"col":57}}
+14:03:07 - [34mdebug[39m: element rule26 {"type":"Chunk","value":" and ","text":" and [{","offset":596,"lineBreaks":0,"line":7,"col":73}
+14:03:07 - [34mdebug[39m: element rule27 {"type":"Binding","fieldName":{"type":"varid","value":"maxTemperature","text":"maxTemperature","offset":603,"lineBreaks":0,"line":7,"col":80}}
+14:03:07 - [34mdebug[39m: element rule28 {"type":"Chunk","value":".\n\nHumidity readings for the shipment must be between ","text":".\n\nHumidity readings for the shipment must be between [{","offset":619,"lineBreaks":2,"line":7,"col":96}
+14:03:07 - [34mdebug[39m: element rule29 {"type":"Binding","fieldName":{"type":"varid","value":"minHumidity","text":"minHumidity","offset":675,"lineBreaks":0,"line":9,"col":54}}
+14:03:07 - [34mdebug[39m: element rule30 {"type":"Chunk","value":" and ","text":" and [{","offset":688,"lineBreaks":0,"line":9,"col":67}
+14:03:07 - [34mdebug[39m: element rule31 {"type":"Binding","fieldName":{"type":"varid","value":"maxHumidity","text":"maxHumidity","offset":695,"lineBreaks":0,"line":9,"col":74}}
+14:03:07 - [34mdebug[39m: element rule32 {"type":"Chunk","value":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is ","text":".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is [{","offset":708,"lineBreaks":2,"line":9,"col":87}
+14:03:07 - [34mdebug[39m: element rule33 {"type":"Binding","fieldName":{"type":"varid","value":"penaltyFactor","text":"penaltyFactor","offset":928,"lineBreaks":0,"line":11,"col":218}}
+14:03:07 - [34mdebug[39m: element rule34 {"type":"LastChunk","value":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","text":".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n","offset":943,"lineBreaks":4,"line":11,"col":233}
+14:03:07 - [34mdebug[39m: Generated template grammar# Dynamically Generated
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 rule11 rule12 rule13 rule14 rule15 rule16 rule17 rule18 rule19 rule20 rule21 rule22 rule23 rule24 rule25 rule26 rule27 rule28 rule29 rule30 rule31 rule32 rule33 rule34 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10,rule11,rule12,rule13,rule14,rule15,rule16,rule17,rule18,rule19,rule20,rule21,rule22,rule23,rule24,rule25,rule26,rule27,rule28,rule29,rule30,rule31,rule32,rule33,rule34 ]) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PerishableGoodsContract",
+        contractId : "50978ddc-89b3-4477-8885-69afcd098063",
+        grower : rule5,
+        importer : rule3,
+        shipment : rule1,
+        dueDate : rule23,
+        unitPrice : rule7,
+        unit : rule9,
+        minUnits : rule11,
+        maxUnits : rule13,
+        product : rule17,
+        sensorReadingFrequency : rule19,
+        duration : rule21,
+        minTemperature : rule25,
+        maxTemperature : rule27,
+        minHumidity : rule29,
+        maxHumidity : rule31,
+        penaltyFactor : rule33,
+    };
+}
+%}
+
+ROOT -> rule0 
+{% ([ rule0 ]) => {
+    return {
+        
+        
+    };
+}
+%}
+
+
+
+rule0 -> "On receipt of the shipment " 
+
+
+rule1 -> String {% id %} # shipment 
+
+
+rule2 -> " the importer " 
+
+
+rule3 -> AccordParty {% id %} # importer 
+
+
+rule4 -> " pays the grower " 
+
+
+rule5 -> AccordParty {% id %} # grower 
+
+
+rule6 -> " " 
+
+
+rule7 -> MonetaryAmount {% id %} # unitPrice 
+
+
+rule8 -> " per " 
+
+
+rule9 -> UnitOfMass {% id %} # unit 
+
+
+rule10 -> ". The shipment must contain between " 
+
+
+rule11 -> Integer {% id %} # minUnits 
+
+
+rule12 -> " and " 
+
+
+rule13 -> Integer {% id %} # maxUnits 
+
+
+rule14 -> " " 
+
+
+rule15 -> UnitOfMass {% id %} # unit 
+
+
+rule16 -> " of " 
+
+
+rule17 -> String {% id %} # product 
+
+
+rule18 -> ".\n\nShipping containers used must be temperature and humidity controlled, and sensor readings must be logged at least " 
+
+
+rule19 -> Integer {% id %} # sensorReadingFrequency 
+
+
+rule20 -> " per " 
+
+
+rule21 -> TemporalUnit {% id %} # duration 
+
+
+rule22 -> ".\n\nShipments that arrive after " 
+
+
+rule23 -> DateTime {% id %} # dueDate 
+
+
+rule24 -> " are to be considered spoiled and must be arranged to be returned to or disposed of by grower at cost to grower.\n\nTemperature readings for the shipment must be between " 
+
+
+rule25 -> Double {% id %} # minTemperature 
+
+
+rule26 -> " and " 
+
+
+rule27 -> Double {% id %} # maxTemperature 
+
+
+rule28 -> ".\n\nHumidity readings for the shipment must be between " 
+
+
+rule29 -> Double {% id %} # minHumidity 
+
+
+rule30 -> " and " 
+
+
+rule31 -> Double {% id %} # maxHumidity 
+
+
+rule32 -> ".\n\nShipments that have a temperature or humidity reading outside the agreed range have a price penalty applied calculated using the Formula for Breach Penalty Calculation below. The breach penalty factor to be used is " 
+
+
+rule33 -> Double {% id %} # penaltyFactor 
+
+
+rule34 -> ".\n\nFormula for Breach Penalty Calculation:\n   penalty = number of shipment units x difference between sensor reading and agreed range x breach penalty factor\n" 
+
+
+PerishableGoodsContract -> AccordParty  __  AccordParty  __  String  __  DateTime  __  MonetaryAmount  __  UnitOfMass  __  Integer  __  Integer  __  String  __  Integer  __  TemporalUnit  __  Double  __  Double  __  Double  __  Double  __  Double  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PerishableGoodsContract",
+        grower : data[0],
+        importer : data[2],
+        shipment : data[4],
+        dueDate : data[6],
+        unitPrice : data[8],
+        unit : data[10],
+        minUnits : data[12],
+        maxUnits : data[14],
+        product : data[16],
+        sensorReadingFrequency : data[18],
+        duration : data[20],
+        minTemperature : data[22],
+        maxTemperature : data[24],
+        minHumidity : data[26],
+        maxHumidity : data[28],
+        penaltyFactor : data[30],
+        contractId : data[32],
+        parties : data[34]
+    };
+}
+%}
+
+
+ShipmentStatus -> "CREATED" {% id %} | "IN_TRANSIT" {% id %} | "ARRIVED" {% id %} 
+
+
+SensorReading -> Double  __  Double  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.SensorReading",
+        centigrade : data[0],
+        humidity : data[2],
+        shipment : data[4],
+        transactionId : data[6],
+        timestamp : data[8]
+    };
+}
+%}
+
+
+ShipmentReceived -> Integer  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.ShipmentReceived",
+        unitCount : data[0],
+        shipment : data[2],
+        transactionId : data[4],
+        timestamp : data[6]
+    };
+}
+%}
+
+
+PriceCalculation -> MonetaryAmount  __  MonetaryAmount  __  Boolean  __  String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.PriceCalculation",
+        totalPrice : data[0],
+        penalty : data[2],
+        late : data[4],
+        shipment : data[6],
+        transactionId : data[8],
+        timestamp : data[10]
+    };
+}
+%}
+
+
+Shipment -> String  __  ShipmentStatus  __  AccordParty  __  AccordParty  __  SensorReading:*  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Shipment",
+        shipmentId : data[0],
+        status : data[2],
+        grower : data[4],
+        importer : data[6],
+        sensorReadings : data[8],
+        smartClause : data[10]
+    };
+}
+%}
+
+
+Grower -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Grower",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+Shipper -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Shipper",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+Importer -> MonetaryAmount  __  String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.Importer",
+        accountBalance : data[0],
+        identifier : data[2],
+        name : data[4],
+        description : data[6],
+        duns : data[8],
+        place : data[10]
+    };
+}
+%}
+
+
+SetupDemo -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.perishablegoods.SetupDemo",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+TemporalUnit -> "seconds" {% id %} | "minutes" {% id %} | "hours" {% id %} | "days" {% id %} | "weeks" {% id %} 
+
+
+Duration -> Long  __  TemporalUnit 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.time.Duration",
+        amount : data[0],
+        unit : data[2]
+    };
+}
+%}
+
+
+PeriodUnit -> "days" {% id %} | "weeks" {% id %} | "months" {% id %} | "quarters" {% id %} | "years" {% id %} 
+
+
+Period -> Long  __  PeriodUnit 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.time.Period",
+        amount : data[0],
+        unit : data[2]
+    };
+}
+%}
+
+
+PostalAddress -> String:?  __  String:?  __  String:?  __  String:?  __  String:?  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.address.PostalAddress",
+        streetAddress : data[0],
+        postalCode : data[2],
+        postOfficeBoxNumber : data[4],
+        addressRegion : data[6],
+        addressLocality : data[8],
+        addressCountry : data[10]
+    };
+}
+%}
+
+
+Organization -> String  __  String:?  __  String:?  __  String:?  __  Place:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.organization.Organization",
+        identifier : data[0],
+        name : data[2],
+        description : data[4],
+        duns : data[6],
+        place : data[8]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+QuantitativeValue -> String  __  String:?  __  Double 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.value.QuantitativeValue",
+        unitCode : data[0],
+        unitText : data[2],
+        value : data[4]
+    };
+}
+%}
+
+
+UnitOfMass -> "GRAM" {% id %} | "KG" {% id %} | "TONNE" {% id %} 
+
+
+UnitOfLength -> "METER" {% id %} 
+
+
+UnitOfDensity -> "KG_PER_CUBIC_METER" {% id %} 
+
+
+UnitOfVolume -> "CUBIC_METER" {% id %} 
+
+
+UnitOfTemperature -> "KELVINS" {% id %} | "CELSIUS" {% id %} | "FAHRENHEIT" {% id %} 
+
+
+GeoCoordinates -> PostalAddress:?  __  String:?  __  Double:?  __  Double:?  __  Double:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.GeoCoordinates",
+        address : data[0],
+        addressCountry : data[2],
+        elevation : data[4],
+        latitude : data[6],
+        longitude : data[8]
+    };
+}
+%}
+
+
+Place -> PostalAddress:?  __  String:?  __  String:?  __  GeoCoordinates:?  __  String:?  __  String:?  __  String:?  __  String:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.Place",
+        address : data[0],
+        branchCode : data[2],
+        faxNumber : data[4],
+        geo : data[6],
+        globalLocationNumber : data[8],
+        mapUrl : data[10],
+        isicsV4 : data[12],
+        telephone : data[14]
+    };
+}
+%}
+
+
+Country -> String  __  CountryCodeISOAlpha2 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.geo.Country",
+        name : data[0],
+        optional : data[2]
+    };
+}
+%}
+
+
+CountryCodeISOAlpha2 -> "AD" {% id %} | "AE" {% id %} | "AF" {% id %} | "AG" {% id %} | "AI" {% id %} | "AL" {% id %} | "AM" {% id %} | "AO" {% id %} | "AQ" {% id %} | "AR" {% id %} | "AS" {% id %} | "AT" {% id %} | "AU" {% id %} | "AW" {% id %} | "AX" {% id %} | "AZ" {% id %} | "BA" {% id %} | "BB" {% id %} | "BD" {% id %} | "BE" {% id %} | "BF" {% id %} | "BG" {% id %} | "BH" {% id %} | "BI" {% id %} | "BJ" {% id %} | "BL" {% id %} | "BM" {% id %} | "BN" {% id %} | "BO" {% id %} | "BQ" {% id %} | "BR" {% id %} | "BS" {% id %} | "BT" {% id %} | "BV" {% id %} | "BW" {% id %} | "BY" {% id %} | "BZ" {% id %} | "CA" {% id %} | "CC" {% id %} | "CD" {% id %} | "CF" {% id %} | "CG" {% id %} | "CH" {% id %} | "CI" {% id %} | "CK" {% id %} | "CL" {% id %} | "CM" {% id %} | "CN" {% id %} | "CO" {% id %} | "CR" {% id %} | "CU" {% id %} | "CV" {% id %} | "CW" {% id %} | "CX" {% id %} | "CY" {% id %} | "CZ" {% id %} | "DE" {% id %} | "DJ" {% id %} | "DK" {% id %} | "DM" {% id %} | "DO" {% id %} | "DZ" {% id %} | "EC" {% id %} | "EE" {% id %} | "EG" {% id %} | "EH" {% id %} | "ER" {% id %} | "ES" {% id %} | "ET" {% id %} | "FI" {% id %} | "FJ" {% id %} | "FK" {% id %} | "FM" {% id %} | "FO" {% id %} | "FR" {% id %} | "GA" {% id %} | "GB" {% id %} | "GD" {% id %} | "GE" {% id %} | "GF" {% id %} | "GG" {% id %} | "GH" {% id %} | "GI" {% id %} | "GL" {% id %} | "GM" {% id %} | "GN" {% id %} | "GP" {% id %} | "GQ" {% id %} | "GR" {% id %} | "GS" {% id %} | "GT" {% id %} | "GU" {% id %} | "GW" {% id %} | "GY" {% id %} | "HK" {% id %} | "HM" {% id %} | "HN" {% id %} | "HR" {% id %} | "HT" {% id %} | "HU" {% id %} | "ID" {% id %} | "IE" {% id %} | "IL" {% id %} | "IM" {% id %} | "IN" {% id %} | "IO" {% id %} | "IQ" {% id %} | "IR" {% id %} | "IS" {% id %} | "IT" {% id %} | "JE" {% id %} | "JM" {% id %} | "JO" {% id %} | "JP" {% id %} | "KE" {% id %} | "KG" {% id %} | "KH" {% id %} | "KI" {% id %} | "KM" {% id %} | "KN" {% id %} | "KP" {% id %} | "KR" {% id %} | "KW" {% id %} | "KY" {% id %} | "KZ" {% id %} | "LA" {% id %} | "LB" {% id %} | "LC" {% id %} | "LI" {% id %} | "LK" {% id %} | "LR" {% id %} | "LS" {% id %} | "LT" {% id %} | "LU" {% id %} | "LV" {% id %} | "LY" {% id %} | "MA" {% id %} | "MC" {% id %} | "MD" {% id %} | "ME" {% id %} | "MF" {% id %} | "MG" {% id %} | "MH" {% id %} | "MK" {% id %} | "ML" {% id %} | "MM" {% id %} | "MN" {% id %} | "MO" {% id %} | "MP" {% id %} | "MQ" {% id %} | "MR" {% id %} | "MS" {% id %} | "MT" {% id %} | "MU" {% id %} | "MV" {% id %} | "MW" {% id %} | "MX" {% id %} | "MY" {% id %} | "MZ" {% id %} | "NA" {% id %} | "NC" {% id %} | "NE" {% id %} | "NF" {% id %} | "NG" {% id %} | "NI" {% id %} | "NL" {% id %} | "NO" {% id %} | "NP" {% id %} | "NR" {% id %} | "NU" {% id %} | "NZ" {% id %} | "OM" {% id %} | "PA" {% id %} | "PE" {% id %} | "PF" {% id %} | "PG" {% id %} | "PH" {% id %} | "PK" {% id %} | "PL" {% id %} | "PM" {% id %} | "PN" {% id %} | "PR" {% id %} | "PS" {% id %} | "PT" {% id %} | "PW" {% id %} | "PY" {% id %} | "QA" {% id %} | "RE" {% id %} | "RO" {% id %} | "RS" {% id %} | "RU" {% id %} | "RW" {% id %} | "SA" {% id %} | "SB" {% id %} | "SC" {% id %} | "SD" {% id %} | "SE" {% id %} | "SG" {% id %} | "SH" {% id %} | "SI" {% id %} | "SJ" {% id %} | "SK" {% id %} | "SL" {% id %} | "SM" {% id %} | "SN" {% id %} | "SO" {% id %} | "SR" {% id %} | "SS" {% id %} | "ST" {% id %} | "SV" {% id %} | "SX" {% id %} | "SY" {% id %} | "SZ" {% id %} | "TC" {% id %} | "TD" {% id %} | "TF" {% id %} | "TG" {% id %} | "TH" {% id %} | "TJ" {% id %} | "TK" {% id %} | "TL" {% id %} | "TM" {% id %} | "TN" {% id %} | "TO" {% id %} | "TR" {% id %} | "TT" {% id %} | "TV" {% id %} | "TW" {% id %} | "TZ" {% id %} | "UA" {% id %} | "UG" {% id %} | "UM" {% id %} | "US" {% id %} | "UY" {% id %} | "UZ" {% id %} | "VA" {% id %} | "VC" {% id %} | "VE" {% id %} | "VG" {% id %} | "VI" {% id %} | "VN" {% id %} | "VU" {% id %} | "WF" {% id %} | "WS" {% id %} | "YE" {% id %} | "YT" {% id %} | "ZA" {% id %} | "ZM" {% id %} | "ZW" {% id %} 
+
+
+
+# Basic types
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+MONTH -> DOUBLE_NUMBER
+DAY -> DOUBLE_NUMBER
+YEAR -> DOUBLE_NUMBER DOUBLE_NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+DATE -> MONTH "/" DAY "/" YEAR
+{% (d) => {return '' + d[4] + '-' + d[0] + '-' + d[2]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+DateTime -> DATE  {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+# Whitespace: `_` is optional, `__` is mandatory.
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+14:03:07 - [34mdebug[39m: fromDirectory
+14:03:07 - [34mdebug[39m: fromDirectory
+14:03:07 - [34mdebug[39m: Result of parsing: {"$class":"org.accordproject.perishablegoods.PerishableGoodsContract","contractId":"50978ddc-89b3-4477-8885-69afcd098063","grower":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"PETER"},"importer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"DAN"},"shipment":"SHIP_001","dueDate":"2018-07-02","unitPrice":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":1.5,"currencyCode":"USD"},"unit":"KG","minUnits":3000,"maxUnits":3500,"product":"Grade I, Size 4, Zutano Mexican Avocados","sensorReadingFrequency":1,"duration":"hours","minTemperature":2,"maxTemperature":13,"minHumidity":70,"maxHumidity":90,"penaltyFactor":0.2}
+14:03:07 - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.perishablegoods.PerishableGoodsContract","contractId":"50978ddc-89b3-4477-8885-69afcd098063","grower":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"PETER"},"importer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"DAN"},"shipment":"SHIP_001","dueDate":"2018-07-02","unitPrice":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":1.5,"currencyCode":"USD"},"unit":"KG","minUnits":3000,"maxUnits":3500,"product":"Grade I, Size 4, Zutano Mexican Avocados","sensorReadingFrequency":1,"duration":"hours","minTemperature":2,"maxTemperature":13,"minHumidity":70,"maxHumidity":90,"penaltyFactor":0.2}
+14:03:07 - [34mdebug[39m: Engine processing request org.accordproject.perishablegoods.ShipmentReceived with state org.accordproject.cicero.contract.AccordContractState
+14:03:07 - [34mdebug[39m: 
+        __dispatch(contractdata,data,request,state,moment());
+
+        function __dispatch(contract,data,request,state,now) {
+            switch(request.getFullyQualifiedType()) {
+        
+            case 'org.accordproject.perishablegoods.ShipmentReceived':
+                let type0 = 'org.accordproject.perishablegoods.PriceCalculation';
+                let ns0 = type0.substr(0, type0.lastIndexOf('.'));
+                let clazz0 = type0.substr(type0.lastIndexOf('.')+1);
+                let response0 = factory.newTransaction(ns0, clazz0);
+                let context0 = {request: request, state: state, contract: contract, data: data, response: response0, emit: [], now: now};
+                orgXaccordprojectXperishablegoodsXPerishableGoods_payout(context0);
+                return { response: context0.response, state: context0.state, emit: context0.emit };
+            break;
+            default:
+                throw new Error('No function handler for ' + request.getFullyQualifiedType() );
+            } // switch
+            return 'oops';
+        }
+        
+14:03:07 - [34mdebug[39m: 
+        __init(contractdata,data,request,moment());
+
+        function __init(contract,data,request,now) {
+        
+                return { response: serializer.fromJSON({ '$class': 'org.accordproject.cicero.runtime.Response' }, {validate: false, acceptResourcesForRelationships: true}), state: serializer.fromJSON({ '$class': 'org.accordproject.cicero.contract.AccordContractState', 'stateId' : 'org.accordproject.cicero.contract.AccordContractState#1' }, {validate: false, acceptResourcesForRelationships: true}), emit: [] };
+        }
+        
